@@ -1,0 +1,433 @@
+[
+  {
+    "id": 1,
+    "title": "SkyTouch",
+    "demo": "https://edriso.github.io/design4",
+    "code": "https://github.com/edriso/design4",
+    "img": "1.png",
+    "tags": ["bootstrap", "lightboxjs"],
+    "date": "Nov 2016",
+    "type": "short"
+  },
+  {
+    "id": 2,
+    "title": "Everyday Things",
+    "demo": "https://edriso.github.io/rDesign1",
+    "code": "https://github.com/edriso/rDesign1",
+    "img": "2.png",
+    "tags": ["mediaQuery"],
+    "date": "Dec 2016",
+    "type": "short"
+  },
+  {
+    "id": 3,
+    "title": "Axit",
+    "demo": "https://edriso.github.io/rDesign4",
+    "code": "https://github.com/edriso/rDesign4",
+    "img": "3.png",
+    "tags": ["bootstrap"],
+    "date": "Apr 2017",
+    "type": "short"
+  },
+  {
+    "id": 4,
+    "title": "Mountain king",
+    "demo": "https://edriso.github.io/rDesign5",
+    "code": "https://github.com/edriso/rDesign5",
+    "img": "4.png",
+    "tags": ["wowjs", "loading"],
+    "date": "Jun 2017",
+    "type": "short"
+  },
+  {
+    "id": 5,
+    "title": "Scoot",
+    "demo": "https://edriso.github.io/comingSoon",
+    "code": "https://github.com/edriso/comingSoon",
+    "img": "5.png",
+    "tags": ["countdown", "particlesjs"],
+    "date": "Dec 2017",
+    "type": "short"
+  },
+  {
+    "id": 6,
+    "title": "Active box",
+    "demo": "https://edriso.github.io/rDesign6",
+    "code": "https://github.com/edriso/rDesign6",
+    "img": "6.png",
+    "tags": ["lightboxjs"],
+    "date": "Jan 2018",
+    "type": "short"
+  },
+  {
+    "id": 7,
+    "title": "Schoola guide",
+    "demo": "https://edriso.github.io/schoolaGuide",
+    "code": "https://github.com/edriso/schoolaGuide",
+    "img": "7.png",
+    "tags": ["bootstrap"],
+    "date": "Dec 2019",
+    "type": "short"
+  },
+
+  {
+    "id": 8,
+    "title": "Mint",
+    "demo": "https://mint-vue.web.app",
+    "code": "https://github.com/edriso/mint",
+    "img": "8.png",
+    "tags": ["vue", "tailwind", "masonry"],
+    "date": "Nov 2020",
+    "type": "short"
+  },
+  {
+    "id": 9,
+    "title": "Pet appointment",
+    "demo": "https://pet-apt.web.app",
+    "code": "https://github.com/edriso/petAppointment",
+    "img": "9.png",
+    "tags": ["vue", "lodash"],
+    "date": "Nov 2020",
+    "type": "short"
+  },
+  {
+    "id": 10,
+    "title": "Fancy Quiz",
+    "demo": "https://fancy-quiz-app.web.app",
+    "code": "https://github.com/edriso/fancy-quiz-app",
+    "img": "10.png",
+    "tags": ["vue", "bootstrap-vue"],
+    "date": "Jan 2021",
+    "type": "app"
+  },
+  {
+    "id": 11,
+    "title": "Easybank",
+    "demo": "https://edriso.github.io/easybank",
+    "code": "https://github.com/edriso/easybank",
+    "img": "11.png",
+    "tags": ["frontendmentor", "sass"],
+    "date": "Jan 2021",
+    "type": "short"
+  },
+  {
+    "id": 12,
+    "title": "Punch Game",
+    "demo": "https://edriso.github.io/punchbag",
+    "code": "https://github.com/edriso/punchbag",
+    "img": "12.png",
+    "tags": ["vue"],
+    "date": "Jan 2021",
+    "type": "short"
+  },
+  {
+    "id": 13,
+    "title": "Mini blog",
+    "demo": "https://miniblogr.web.app",
+    "code": "https://github.com/edriso/miniblogr",
+    "img": "13.png",
+    "tags": ["vue", "firebase"],
+    "date": "Feb 2021",
+    "type": "app"
+  },
+  {
+    "id": 14,
+    "title": "Petsy",
+    "demo": "https://petsyy1.web.app",
+    "code": "https://github.com/edriso/petsy",
+    "img": "14.png",
+    "tags": ["vue", "vuex"],
+    "date": "Feb 2021",
+    "type": "short"
+  },
+  {
+    "id": 15,
+    "title": "Planner",
+    "demo": "https://plan-things.web.app",
+    "code": "https://github.com/edriso/planner",
+    "img": "15.png",
+    "tags": ["vue", "json-server"],
+    "date": "Feb 2021",
+    "type": "app"
+  },
+  {
+    "id": 16,
+    "title": "Price grid component",
+    "demo": "https://edriso.github.io/price-grid",
+    "code": "https://github.com/edriso/price-grid",
+    "img": "16.png",
+    "tags": ["frontendmentor"],
+    "date": "Feb 2021",
+    "type": "short"
+  },
+  {
+    "id": 17,
+    "title": "Dad jokes",
+    "demo": "https://dadjokes1.web.app/jokes",
+    "code": "https://github.com/edriso",
+    "img": "17.png",
+    "tags": ["nuxt", "axios"],
+    "date": "Mar 2021",
+    "type": "short"
+  },
+  {
+    "id": 18,
+    "title": "Cup of that",
+    "demo": "https://cupofthat-daily.web.app",
+    "code": "https://github.com/edriso/cup-of-that",
+    "img": "18.png",
+    "tags": ["vue", "sass"],
+    "date": "Apr 2021",
+    "type": "app"
+  },
+  {
+    "id": 19,
+    "title": "Simple book list",
+    "demo": "https://abooklist-my-first-react-app.netlify.app",
+    "code": "https://github.com/edriso/a-booklist",
+    "img": "19.png",
+    "tags": ["react"],
+    "date": "Sep 2021",
+    "type": "short"
+  },
+  {
+    "id": 20,
+    "title": "Article preview component",
+    "demo": "https://edriso.github.io/article-preview",
+    "code": "https://github.com/edriso/article-preview",
+    "img": "20.jpg",
+    "tags": ["frontendmentor", "sass"],
+    "date": "Oct 2021",
+    "type": "short"
+  },
+  {
+    "id": 21,
+    "title": "Bootcamp testimonial",
+    "demo": "https://edriso.github.io/bootcamp-testimonials",
+    "code": "https://github.com/edriso/bootcamp-testimonials",
+    "img": "21.jpg",
+    "tags": ["frontendmentor"],
+    "date": "Oct 2021",
+    "type": "short"
+  },
+  {
+    "id": 22,
+    "title": "Testimonials grid",
+    "demo": "https://edriso.github.io/testimonials-grid-section",
+    "code": "https://github.com/edriso/testimonials-grid-section",
+    "img": "22.jpg",
+    "tags": ["frontendmentor"],
+    "date": "Oct 2021",
+    "type": "short"
+  },
+  {
+    "id": 23,
+    "title": "Order Summary",
+    "demo": "https://edriso.github.io/order-summary",
+    "code": "https://github.com/edriso/order-summary",
+    "img": "23.jpg",
+    "tags": ["frontendmentor"],
+    "date": "Oct 2021",
+    "type": "short"
+  },
+  {
+    "id": 24,
+    "title": "Tip Splitter",
+    "demo": "https://edriso.github.io/tip-calculator-app",
+    "code": "https://github.com/edriso/tip-calculator-app",
+    "img": "24.jpg",
+    "tags": ["frontendmentor", "js"],
+    "date": "Oct 2021",
+    "type": "app"
+  },
+  {
+    "id": 25,
+    "title": "Perspective playground",
+    "demo": "https://edriso.github.io/perspective-playground",
+    "code": "https://github.com/edriso/perspective-playground",
+    "img": "25.png",
+    "tags": ["vue"],
+    "date": "Nov 2021",
+    "type": "short"
+  },
+  {
+    "id": 26,
+    "title": "Faq accordion",
+    "demo": "https://edriso.github.io/faq-accordion",
+    "code": "https://github.com/edriso/faq-accordion",
+    "img": "26.jpg",
+    "tags": ["frontendmentor"],
+    "date": "Nov 2021",
+    "type": "short"
+  },
+  {
+    "id": 27,
+    "title": "Drum kit",
+    "demo": "https://edriso.github.io/drum-kit",
+    "code": "https://github.com/edriso/drum-kit",
+    "img": "27.png",
+    "tags": ["js"],
+    "date": "Feb 2022",
+    "type": "app"
+  },
+  {
+    "id": 28,
+    "title": "Natours",
+    "demo": "https://edriso.github.io/natours",
+    "code": "https://github.com/edriso/natours",
+    "img": "28.png",
+    "tags": ["css", "sass"],
+    "date": "Apr 2022",
+    "type": "short"
+  },
+  {
+    "id": 29,
+    "title": "Todolist locally",
+    "demo": "https://edriso.github.io/todolist-locally",
+    "code": "https://github.com/edriso/todolist-locally",
+    "img": "29.png",
+    "tags": ["js", "localStorage"],
+    "date": "May 2022",
+    "type": "app"
+  },
+  {
+    "id": 30,
+    "title": "Sunnyside",
+    "demo": "https://edriso.github.io/sunnyside",
+    "code": "https://github.com/edriso/sunnyside",
+    "img": "30.png",
+    "tags": ["js", "landingpage"],
+    "date": "June 2022",
+    "type": "short"
+  },
+  {
+    "id": 31,
+    "title": "Weatherapp",
+    "demo": "https://weather-app-4q9w.onrender.com",
+    "code": "https://github.com/edriso/weatherapp",
+    "img": "31.png",
+    "tags": ["node", "express", "ejs"],
+    "date": "July 2022",
+    "type": "app"
+  },
+  {
+    "id": 32,
+    "title": "Class 101",
+    "demo": "https://students-class.netlify.app",
+    "code": "https://github.com/edriso/students-class",
+    "img": "32.png",
+    "tags": ["react", "react-hook-form"],
+    "date": "Aug 2022",
+    "type": "short"
+  },
+  {
+    "id": 33,
+    "title": "Pet Appointment",
+    "demo": "https://pet-appointment-react.netlify.app/",
+    "code": "https://github.com/edriso/react-appointment",
+    "img": "33.png",
+    "tags": ["react"],
+    "date": "Oct 2022",
+    "type": "short"
+  },
+  {
+    "id": 34,
+    "title": "My Reads",
+    "demo": "https://my-reads-react1.netlify.app",
+    "code": "https://github.com/edriso/my-reads",
+    "img": "34.png",
+    "tags": ["react", "API"],
+    "date": "Nov 2022",
+    "type": "app"
+  },
+  {
+    "id": 35,
+    "title": "Node Farm",
+    "demo": "",
+    "code": "https://github.com/edriso/node-farm",
+    "img": "35.png",
+    "tags": ["node", "ejs"],
+    "date": "Dec 2022",
+    "type": "short"
+  },
+  {
+    "id": 36,
+    "title": "alarm clock",
+    "demo": "https://edriso.github.io/alarm-clock",
+    "code": "https://github.com/edriso/alarm-clock",
+    "img": "36.png",
+    "tags": ["js"],
+    "date": "Feb 2023",
+    "type": "app"
+  },
+  {
+    "id": 37,
+    "title": "journal",
+    "demo": "",
+    "code": "https://github.com/edriso/journal-rest-api",
+    "img": "37.png",
+    "tags": ["node", "express", "tailwind"],
+    "date": "Feb 2023",
+    "type": "app"
+  },
+  {
+    "id": 38,
+    "title": "store API",
+    "demo": "",
+    "code": "https://github.com/edriso/store-api",
+    "img": "api.jpg",
+    "tags": ["node", "mongodb"],
+    "date": "Feb 2023",
+    "type": "short"
+  },
+  {
+    "id": 39,
+    "title": "task manager",
+    "demo": "https://task-manager-jb4e.onrender.com",
+    "code": "https://github.com/edriso/task-manager",
+    "img": "39.png",
+    "tags": ["node", "mongodb"],
+    "date": "Feb 2023",
+    "type": "app"
+  },
+  {
+    "id": 40,
+    "title": "soccer app",
+    "demo": "",
+    "code": "https://github.com/edriso/soccer-mern-app",
+    "img": "40.png",
+    "tags": ["node", "mongodb", "react"],
+    "date": "Feb 2023",
+    "type": "short"
+  },
+  {
+    "id": 41,
+    "title": "journal laravel",
+    "demo": "https://www.awesomescreenshot.com/video/14530872?key=16f8646873a5b84cda1f8720ee7d3b43",
+    "code": "https://github.com/edriso/journal-laravel",
+    "img": "41.png",
+    "tags": ["laravel"],
+    "date": "Feb 2023",
+    "type": "app"
+  },
+  {
+    "id": 42,
+    "title": "lite notes",
+    "demo": "",
+    "code": "https://github.com/edriso/lite-notes",
+    "img": "42.png",
+    "tags": ["laravel"],
+    "date": "Apr 2023",
+    "type": "app"
+  },
+  {
+    "id": 43,
+    "title": "react projects",
+    "demo": "",
+    "code": "https://github.com/edriso/react-practice-projects",
+    "img": "43.png",
+    "tags": ["react", "redux"],
+    "date": "Apr 2023",
+    "type": "short"
+  }
+]

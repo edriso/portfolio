@@ -1,0 +1,21 @@
+.up-button {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 3rem;
+  z-index: 9;
+  background-color: var(--active);
+  font-size: $font-xl;
+  padding: 1rem 2rem;
+  // border-radius: 0.5rem;
+  // opacity: 0.85;
+  // @include transition($on: opacity);
+  @include transition($on: color);
+  @include breakpoint-up(large) {
+    right: 3rem;
+  }
+
+  &:hover {
+    // opacity: 1;
+    color: #fff;
+  }
+}

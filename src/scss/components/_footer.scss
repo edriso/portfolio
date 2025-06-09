@@ -1,0 +1,36 @@
+.footer {
+  background-color: var(--bg-header);
+  font-size: $font-sm;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: $footer-height;
+  @include transition($on: background-color);
+
+  &:hover svg {
+    fill: var(--font-light);
+  }
+
+  a {
+    &:last-child {
+      margin-left: -5px;
+    }
+
+    &:hover svg,
+    &:active svg {
+      fill: var(--font);
+    }
+
+    svg {
+      display: block;
+      fill: var(--font);
+      @include transition($on: fill);
+    }
+  }
+
+  &__socials {
+    height: 100%;
+  }
+}

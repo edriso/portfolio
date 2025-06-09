@@ -1,0 +1,42 @@
+.works {
+  &__filter {
+    text-transform: capitalize;
+    font-size: $font-sm;
+    user-select: none;
+
+    li {
+      cursor: pointer;
+      color: var(--font-light);
+      @include transition;
+
+      &:hover {
+        color: var(--font);
+      }
+
+      &.active {
+        color: var(--font);
+        font-weight: 500;
+      }
+    }
+  }
+
+  &__display {
+    cursor: pointer;
+    color: var(--font-light);
+    @include transition;
+
+    @include breakpoint-down(small) {
+      display: none;
+    }
+
+    &:hover {
+      color: var(--font);
+    }
+
+    svg {
+      display: block;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.header {
+  background-color: var(--bg-header);
+  @include transition($on: background-color);
+
+  &__brand {
+    color: var(--active);
+    font-family: var(--font-family-handy);
+    @include transition;
+  }
+
+  &__toggle {
+    color: var(--font-light);
+    cursor: pointer;
+    @include transition;
+
+    &:hover {
+      color: var(--font);
+    }
+
+    svg {
+      display: block;
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  &__nav {
+    a {
+      &:link,
+      &:visited {
+        @include transition($time: 250ms);
+
+        @include breakpoint-up(medium) {
+          font-size: $font-md;
+        }
+      }
+
+      &:hover,
+      &:active {
+        color: var(--font);
+      }
+
+      &.router-link-exact-active {
+        color: var(--font);
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+// Variables
+:root {
+  --bg: hsl(0, 0%, 92%);
+  --bg-header: hsl(0, 0%, 97%);
+  --font: hsl(0, 0%, 20%);
+  --font-light: hsl(0, 0%, 45%);
+  --active: hsl(44, 98%, 50%);
+  // --shadow-color: rgba(0, 0, 0, 0.05);
+
+  --font-family: "Poppins", sans-serif;
+  --font-family-handy: "Pacifico", cursive;
+}
+
+// Darkmode
+:root.darkMode {
+  --bg: hsl(240, 4%, 9%);
+  --bg-header: hsl(240, 13%, 13%);
+  --font: hsl(0, 0%, 100%);
+  --font-light: hsl(0, 0%, 60%);
+  --active: hsl(44, 98%, 64%);
+  // --shadow-color: rgba(255, 255, 255, 0.2);
+}
+
+// Font Sizes
+$font-sm: 1.4rem;
+$font-md: 1.8rem;
+$font-lg: 2rem;
+$font-xl: 2.5rem;
+$font-xxl: 3rem;
+
+// Heights
+$footer-height: 10rem;

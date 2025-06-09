@@ -1,0 +1,90 @@
+.about {
+  &__hero {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--font);
+
+    // &:hover .about__hero-icon {
+    // animation: waving 1200ms ease-out 150ms;
+    // }
+  }
+
+  &__hero-photo {
+    width: 20rem;
+    height: 20rem;
+    // border-radius: 0.75rem;
+    border-radius: 50%;
+    padding: 0.65rem;
+    border: 0.5rem solid var(--active);
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 1.5rem;
+
+    @include breakpoint-up(medium) {
+      width: 25rem;
+      height: 25rem;
+    }
+  }
+
+  // &__hero-intro {}
+
+  &__hero-text {
+    font-size: $font-md;
+    font-weight: 500;
+
+    @include breakpoint-down(medium) {
+      line-height: 1.7;
+    }
+
+    @include breakpoint-up(medium) {
+      font-size: $font-lg;
+    }
+  }
+
+  &__hero-icon {
+    width: 2.3rem;
+    animation: waving 1200ms ease-out 700ms both;
+    backface-visibility: hidden;
+    @include breakpoint-up(medium) {
+      width: 2.5rem;
+    }
+  }
+
+  &__text-highlight {
+    border-bottom: 3px solid var(--active);
+  }
+
+  &__section {
+    &:not(:last-child) {
+      margin-bottom: 2.5rem;
+    }
+
+    &--about {
+      li:not(:last-child) {
+        margin-bottom: 1rem;
+      }
+    }
+
+    &--skills {
+      .about__content {
+        word-spacing: -2px;
+        gap: 1rem 1.5rem;
+      }
+    }
+  }
+
+  &__heading {
+    margin-bottom: 0.75rem;
+    font-size: $font-md;
+    font-weight: 500;
+    @include breakpoint-up(medium) {
+      font-size: $font-lg;
+    }
+  }
+
+  &__content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,100 @@
+.posts-grid {
+  display: grid;
+  gap: 2.25rem;
+  grid-template-columns: 1fr;
+  // grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  @include breakpoint-up(medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include breakpoint-up(large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  &.block {
+    grid-template-columns: 1fr;
+  }
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  font-size: $font-sm;
+  overflow: hidden;
+
+  &__demo {
+    display: block;
+    flex: 1;
+    // border-radius: 0.75rem;
+    max-height: 40rem;
+    min-height: 20rem;
+    background-color: var(--bg-header);
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 15%);
+
+    &:hover img {
+      filter: brightness(0.5) blur(1px);
+      transform: scale(1.05);
+    }
+
+    &:hover p {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    @include transition($on: all, $time: 500ms);
+  }
+
+  &__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    color: #fff;
+    font-size: $font-lg;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0;
+    visibility: hidden;
+    @include transition($on: opacity, $time: 500ms, $delay: 200ms);
+  }
+
+  &__body {
+    padding: 0.75rem 0.5rem 0;
+  }
+
+  &__tags {
+    a {
+      display: inline-block;
+      @include transition;
+
+      &:hover {
+        color: var(--font);
+      }
+    }
+  }
+
+  &__code {
+    svg {
+      fill: var(--font-light);
+      display: block;
+      width: 1.8rem;
+      height: 1.8rem;
+      @include transition($on: fill);
+
+      &:hover {
+        fill: var(--font);
+      }
+    }
+  }
+}

@@ -1,0 +1,143 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--font);
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.3;
+  overflow-x: hidden;
+  cursor: default;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: $footer-height;
+  @include transition($on: background-color);
+}
+
+a {
+  color: var(--font-light);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+// Text
+h1,
+h2,
+h3 {
+  line-height: 1.15;
+}
+
+p {
+  line-height: 1.5;
+}
+
+// Buttons
+button {
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: $font-sm;
+
+  &:focus-visible {
+    outline: 0;
+  }
+}
+
+.btn {
+  padding: 1.4rem 3.5rem;
+}
+
+// Flexbox
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-c {
+    justify-content: center;
+  }
+
+  &-ai-c {
+    align-items: center;
+  }
+
+  &-gap-sm {
+    gap: 1rem;
+  }
+
+  &-gap-md {
+    gap: 1.5rem;
+  }
+
+  &-gap-lg {
+    gap: 2rem;
+  }
+
+  &-gap-xl {
+    gap: 2.5rem;
+  }
+
+  &-wrap {
+    flex-wrap: wrap;
+  }
+}
+
+// Spacing
+.container {
+  max-width: 111rem;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  @include breakpoint-up(large) {
+    padding: 4rem 3rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-sm {
+  margin-bottom: 0.75rem;
+}
+
+.mb-md {
+  margin-bottom: 1.5rem;
+}
+
+.my-sm {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+// Visibility
+.hide-on-mobile {
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+}
+
+.hide-on-desktop {
+  @include breakpoint-up(large) {
+    display: none;
+  }
+}

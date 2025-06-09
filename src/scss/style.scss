@@ -1,0 +1,14 @@
+@import "globals/animations";
+@import "globals/variables";
+@import "globals/mixins";
+@import "globals/base";
+
+@import "components/header";
+@import "components/footer";
+@import "components/post";
+@import "components/upButton";
+
+@import "views/about";
+@import "views/works";
+@import "views/contact";
+@import "views/tag";
