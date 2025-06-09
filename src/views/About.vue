@@ -6,10 +6,10 @@ export default {
       name: "Mohamed Idris",
       title: "Web Developer",
       about: [
-        "As a junior full stack developer, I am passionate about developing web applications that prioritize user experience and efficiency.",
-        "My educational background includes a bachelor's degree in computer science, where I acquired a strong understanding of programming concepts and software engineering. Additionally, I completed ITI web development boot camp that provided me with practical and hands-on experience building web applications.",
-        "My experience includes working with diverse technologies, including backend frameworks like Node.js and Laravel, database management systems such as MongoDB and MySQL, and frontend frameworks like React.js and Vue.js.",
-        "I am enthusiastic about continuously enhancing my skills and keeping pace with the latest industry trends and practices, and I am keen on collaborating with similar-minded professionals to develop innovative solutions that add value to people and drive business expansion.",
+        "I’m a full-stack web developer passionate about building web applications that are both user-friendly and efficient. I focus on creating apps that solve real problems and are easy for people to use.",
+        "I hold a Bachelor's degree in Computer Science, where I learned key programming concepts and software development principles. I also completed the ITI web development boot camp, which gave me hands-on experience in building web applications using PHP and Node.js.",
+        "I have worked with various technologies, including backend frameworks like Node.js and Laravel, and frontend frameworks such as React.js and Vue.js. I’m also skilled in using databases like MySQL and MongoDB to build reliable and fast applications.",
+        "I enjoy working with other professionals to create innovative solutions that help businesses grow and make a positive impact on users.",
       ],
       skills: [
         "HTML",
