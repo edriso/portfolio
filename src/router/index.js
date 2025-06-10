@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import About from "../views/About.vue";
-import Works from "../views/Works.vue";
+import Showcase from "../views/Showcase.vue";
 import Kudos from "../views/Kudos.vue";
 import Contact from "../views/Contact.vue";
 import Tag from "../views/Tag.vue";
@@ -12,11 +12,11 @@ const routes = [
     component: About,
   },
   {
-    path: "/works",
-    name: "works",
-    component: Works,
+    path: "/showcase",
+    name: "showcase",
+    component: Showcase,
     meta: {
-      title: "Works",
+      title: "Showcase",
     },
   },
   {
@@ -41,7 +41,7 @@ const routes = [
     component: Tag,
     props: true,
     meta: {
-      title: "Work Tag",
+      title: "Showcase Tag",
     },
   },
   {

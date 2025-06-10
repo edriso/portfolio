@@ -1,5 +1,5 @@
 <script>
-import Post from "../components/PostWork.vue";
+import Post from "../components/PostShowcase.vue";
 import axios from "axios";
 import { ref, onMounted, watchEffect } from "@vue/runtime-core";
 
@@ -12,7 +12,7 @@ export default {
     const posts = ref([]);
 
     onMounted(() => {
-      axios.get("../db/works.json").then((res) => {
+      axios.get("../db/showcase.json").then((res) => {
         allPosts.value = res.data.slice().reverse();
       });
     });

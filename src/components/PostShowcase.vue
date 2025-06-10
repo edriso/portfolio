@@ -2,7 +2,7 @@
 export default {
   setup() {
     const imageSrc = (imgName) => {
-      return new URL(`../assets/works/${imgName}`, import.meta.url).href;
+      return new URL(`../assets/showcase/${imgName}`, import.meta.url).href;
     };
     return { imageSrc };
   },

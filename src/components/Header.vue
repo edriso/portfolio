@@ -41,7 +41,7 @@ export default {
 
       <nav class="header__nav flex flex-jc-c flex-gap-lg">
         <router-link :to="{ name: 'about' }">About</router-link>
-        <router-link :to="{ name: 'works' }">Works</router-link>
+        <router-link :to="{ name: 'showcase' }">Showcase</router-link>
         <router-link :to="{ name: 'kudos' }">Kudos</router-link>
         <router-link :to="{ name: 'contact' }">Contact</router-link>
       </nav>

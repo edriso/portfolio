@@ -1,24 +1,24 @@
 <script>
-import Post from "../components/PostWork.vue";
+import Post from "../components/PostShowcase.vue";
 import axios from "axios";
 import { ref } from "@vue/reactivity";
 import { computed, onMounted } from "@vue/runtime-core";
 
 export default {
-  name: "Works",
+  name: "Showcase",
   components: { Post },
   setup() {
     // Data
-    const workTypes = ref(["all", "apps", "shorts"]);
-    const currentWorkType = ref("all");
+    const showcaseTypes = ref(["all", "apps", "shorts"]);
+    const currentShowcaseType = ref("all");
     const posts = ref([]);
     const postIsBlock = ref(false);
 
     // Computed
     const filteredPosts = computed(() => {
-      if (currentWorkType.value === "shorts") {
+      if (currentShowcaseType.value === "shorts") {
         return posts.value.filter((post) => post.type === "short");
-      } else if (currentWorkType.value === "apps") {
+      } else if (currentShowcaseType.value === "apps") {
         return posts.value.filter((post) => post.type === "app");
       } else {
         return posts.value;
@@ -27,19 +27,19 @@ export default {
 
     // Methods
     const filterPosts = (type) => {
-      currentWorkType.value = type;
+      currentShowcaseType.value = type;
     };
 
     // Lifecycle Hooks
     onMounted(() => {
       axios
-        .get("../db/works.json")
+        .get("../db/showcase.json")
         .then((res) => (posts.value = res.data.slice().reverse()));
     });
 
     return {
-      workTypes,
-      currentWorkType,
+      showcaseTypes,
+      currentShowcaseType,
       postIsBlock,
       filteredPosts,
       filterPosts,
@@ -49,20 +49,20 @@ export default {
 </script>
 
 <template>
-  <main class="works">
+  <main class="showcase">
     <div class="flex flex-jc-sb flex-ai-c mb-md">
-      <ul class="works__filter flex flex-gap-md">
+      <ul class="showcase__filter flex flex-gap-md">
         <li
-          v-for="type in workTypes"
+          v-for="type in showcaseTypes"
           :key="type"
-          :class="{ active: currentWorkType === type }"
+          :class="{ active: currentShowcaseType === type }"
           @click="filterPosts(type)"
         >
           {{ type }}
         </li>
       </ul>
 
-      <div class="works__display" @click="postIsBlock = !postIsBlock">
+      <div class="showcase__display" @click="postIsBlock = !postIsBlock">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
