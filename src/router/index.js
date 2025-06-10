@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import About from "../views/About.vue";
 import Works from "../views/Works.vue";
+import Kudos from "../views/Kudos.vue";
 import Contact from "../views/Contact.vue";
 import Tag from "../views/Tag.vue";
 
@@ -16,6 +17,14 @@ const routes = [
     component: Works,
     meta: {
       title: "Works",
+    },
+  },
+  {
+    path: "/kudos",
+    name: "kudos",
+    component: Kudos,
+    meta: {
+      title: "Kudos",
     },
   },
   {

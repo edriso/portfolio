@@ -1,0 +1,8 @@
+@use "../globals/mixins" as *;
+@use "../globals/variables" as *;
+
+.kudos {
+  &__content {
+    margin-top: 3rem;
+  }
+}
