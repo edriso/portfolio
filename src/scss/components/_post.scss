@@ -25,13 +25,13 @@
   &__demo {
     display: block;
     flex: 1;
-    // border-radius: 0.75rem;
     max-height: 40rem;
     min-height: 20rem;
     background-color: var(--bg-header);
     overflow: hidden;
     position: relative;
     box-shadow: 0 3px 6px rgb(0 0 0 / 15%);
+    // border-radius: 0.75rem;
 
     &:hover img {
       filter: brightness(0.5) blur(1px);

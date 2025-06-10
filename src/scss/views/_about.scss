@@ -13,13 +13,13 @@
   &__hero-photo {
     width: 20rem;
     height: 20rem;
-    // border-radius: 0.75rem;
-    border-radius: 50%;
     padding: 0.65rem;
     border: 0.5rem solid var(--active);
     object-fit: cover;
     object-position: top;
     margin-bottom: 1.5rem;
+    border-radius: 50%;
+    // border-radius: 0.75rem;
 
     @include breakpoint-up(medium) {
       width: 25rem;
