@@ -72,6 +72,10 @@ button {
 .flex {
   display: flex;
 
+  &-col {
+    flex-direction: column;
+  }
+
   &-jc-sb {
     justify-content: space-between;
   }
