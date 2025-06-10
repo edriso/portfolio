@@ -1,3 +1,5 @@
+@use "sass:map";
+
 // Breakpoints
 // up: for this viewport and up, sm is the default styling
 // 640px, 1024px, 1400px
@@ -15,14 +17,14 @@ $breakpoints-down: (
 );
 
 @mixin breakpoint-up($size) {
-  @media (min-width: map-get($breakpoints-up, $size)) {
+  @media (min-width: map.get($breakpoints-up, $size)) {
     // styles go here
     @content;
   }
 }
 
 @mixin breakpoint-down($size) {
-  @media (max-width: map-get($breakpoints-down, $size)) {
+  @media (max-width: map.get($breakpoints-down, $size)) {
     @content;
   }
 }
