@@ -1,3 +1,6 @@
+@use "../globals/mixins" as *;
+@use "../globals/variables" as *;
+
 .tag {
   .selected {
     font-weight: 500;

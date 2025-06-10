@@ -1,3 +1,6 @@
+@use "../globals/mixins" as *;
+@use "../globals/variables" as *;
+
 .up-button {
   position: fixed;
   right: 1.5rem;

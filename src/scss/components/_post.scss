@@ -1,3 +1,6 @@
+@use "../globals/mixins" as *;
+@use "../globals/variables" as *;
+
 .posts-grid {
   display: grid;
   gap: 2.25rem;

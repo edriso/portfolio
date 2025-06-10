@@ -1,3 +1,6 @@
+@use "../globals/mixins" as *;
+@use "../globals/variables" as *;
+
 .about {
   &__hero {
     text-align: center;

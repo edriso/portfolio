@@ -1,3 +1,6 @@
+@use "../globals/mixins" as *;
+@use "../globals/variables" as *;
+
 .contact {
   &-flex {
     display: flex;

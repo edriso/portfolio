@@ -1,3 +1,6 @@
+@use "../globals/mixins" as *;
+@use "../globals/variables" as *;
+
 .footer {
   background-color: var(--bg-header);
   font-size: $font-sm;

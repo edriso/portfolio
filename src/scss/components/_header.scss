@@ -1,3 +1,6 @@
+@use "../globals/mixins" as *;
+@use "../globals/variables" as *;
+
 .header {
   background-color: var(--bg-header);
   @include transition($on: background-color);
