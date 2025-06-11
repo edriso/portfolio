@@ -10,7 +10,7 @@ export default {
   setup() {
     // Data
     const showcaseTypes = ref(["all", "apps", "shorts"]);
-    const currentShowcaseType = ref("all");
+    const currentShowcaseType = ref("apps");
     const posts = ref([]);
     const postIsBlock = ref(false);
 
