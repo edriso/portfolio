@@ -21,13 +21,18 @@
     display: grid;
     gap: 2rem;
     grid-template-columns: 1fr;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    @include breakpoint-up(medium) {
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
   }
 
   &__item {
-    padding: 2rem;
+    padding: 2rem 1rem;
     box-shadow: 0 3px 6px rgb(0 0 0 / 15%);
     border: 1px solid var(--font-light);
+    @include breakpoint-up(medium) {
+      padding: 2rem;
+    }
   }
 
   &__quote {
