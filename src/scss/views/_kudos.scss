@@ -6,10 +6,13 @@
     margin-bottom: 3rem;
 
     a {
-      @include transition;
+      display: inline-block;
+      border-bottom: 1px solid transparent;
+      @include transition($on: all);
 
       &:hover {
         color: var(--font);
+        border-bottom-color: var(--font);
       }
     }
   }
