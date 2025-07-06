@@ -27,8 +27,9 @@ export default {
 
 <template>
   <main class="kudos">
-    <p class="kudos__intro">During my time at <a href="https://scandiweb.com" target="_blank" rel="noopener noreferrer">Scandiweb</a>, I had the chance to use two great internal apps. One is <a href="https://scandiweb.small-improvements.com" target="_blank" rel="noopener noreferrer">Small Improvements</a>, where team leads and colleagues give feedback, and the other is <a href="https://crowdbonus.com" target="_blank" rel="noopener noreferrer">Crowdbonus</a>, which allows employees to share 50 euros as a way of saying thanks. Below are some of the feedback and recognition I received through these platforms. 
-    <a :href="documentationLink" target="_blank" rel="noopener noreferrer">&#40;View Documentation&#41;</a>
+    <p class="kudos__intro">
+      During my time at <a href="https://scandiweb.com" target="_blank" rel="noopener noreferrer">Scandiweb</a>, I had the chance to use two wonderful internal apps. One is <a href="https://scandiweb.small-improvements.com" target="_blank" rel="noopener noreferrer">Small Improvements</a>, a platform where team leads and colleagues provide valuable feedback, and the other is <a href="https://crowdbonus.com" target="_blank" rel="noopener noreferrer">Crowdbonus</a>, which allowed employees to share €50 as a token of appreciation (paused as of July 2025). Below are some of the feedback and recognition I received through these platforms. 
+      <a :href="documentationLink" target="_blank" rel="noopener noreferrer">(View Documentation)</a>
     </p>
 
     <ul class="kudos__content">
