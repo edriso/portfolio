@@ -31,16 +31,6 @@
   },
   {
     "id": 4,
-    "title": "Mountain king",
-    "demo": "https://edriso.github.io/rDesign5",
-    "code": "https://github.com/edriso/rDesign5",
-    "img": "4.png",
-    "tags": ["wowjs", "loading"],
-    "date": "Jun 2017",
-    "type": "short"
-  },
-  {
-    "id": 5,
     "title": "Scoot",
     "demo": "https://edriso.github.io/comingSoon",
     "code": "https://github.com/edriso/comingSoon",
@@ -50,7 +40,7 @@
     "type": "short"
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "Active box",
     "demo": "https://edriso.github.io/rDesign6",
     "code": "https://github.com/edriso/rDesign6",
@@ -60,7 +50,7 @@
     "type": "short"
   },
   {
-    "id": 7,
+    "id": 6,
     "title": "Schoola guide",
     "demo": "https://edriso.github.io/schoolaGuide",
     "code": "https://github.com/edriso/schoolaGuide",
@@ -71,7 +61,7 @@
   },
 
   {
-    "id": 8,
+    "id": 7,
     "title": "Mint",
     "demo": "https://mint-vue.web.app",
     "code": "https://github.com/edriso/mint",
@@ -81,7 +71,7 @@
     "type": "short"
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "Pet appointment",
     "demo": "https://pet-apt.web.app",
     "code": "https://github.com/edriso/petAppointment",
@@ -91,7 +81,7 @@
     "type": "short"
   },
   {
-    "id": 10,
+    "id": 9,
     "title": "Fancy Quiz",
     "demo": "https://fancy-quiz-app.web.app",
     "code": "https://github.com/edriso/fancy-quiz-app",
@@ -101,7 +91,7 @@
     "type": "app"
   },
   {
-    "id": 11,
+    "id": 10,
     "title": "Easybank",
     "demo": "https://edriso.github.io/easybank",
     "code": "https://github.com/edriso/easybank",
@@ -111,7 +101,7 @@
     "type": "short"
   },
   {
-    "id": 12,
+    "id": 11,
     "title": "Punch Game",
     "demo": "https://edriso.github.io/punchbag",
     "code": "https://github.com/edriso/punchbag",
@@ -121,7 +111,7 @@
     "type": "short"
   },
   {
-    "id": 13,
+    "id": 12,
     "title": "Mini blog",
     "demo": "https://miniblogr.web.app",
     "code": "https://github.com/edriso/miniblogr",
@@ -131,7 +121,7 @@
     "type": "app"
   },
   {
-    "id": 14,
+    "id": 13,
     "title": "Petsy",
     "demo": "https://petsyy1.web.app",
     "code": "https://github.com/edriso/petsy",
@@ -141,7 +131,7 @@
     "type": "short"
   },
   {
-    "id": 15,
+    "id": 14,
     "title": "Planner",
     "demo": "https://plan-things.web.app",
     "code": "https://github.com/edriso/planner",
@@ -151,7 +141,7 @@
     "type": "app"
   },
   {
-    "id": 16,
+    "id": 15,
     "title": "Price grid component",
     "demo": "https://edriso.github.io/price-grid",
     "code": "https://github.com/edriso/price-grid",
@@ -161,7 +151,7 @@
     "type": "short"
   },
   {
-    "id": 17,
+    "id": 16,
     "title": "Dad jokes",
     "demo": "https://dadjokes1.web.app/jokes",
     "code": "https://github.com/edriso",
@@ -171,7 +161,7 @@
     "type": "short"
   },
   {
-    "id": 18,
+    "id": 17,
     "title": "Cup of that",
     "demo": "https://cupofthat-daily.web.app",
     "code": "https://github.com/edriso/cup-of-that",
@@ -181,7 +171,7 @@
     "type": "app"
   },
   {
-    "id": 19,
+    "id": 18,
     "title": "Simple book list",
     "demo": "https://abooklist-my-first-react-app.netlify.app",
     "code": "https://github.com/edriso/a-booklist",
@@ -191,7 +181,7 @@
     "type": "short"
   },
   {
-    "id": 20,
+    "id": 19,
     "title": "Article preview component",
     "demo": "https://edriso.github.io/article-preview",
     "code": "https://github.com/edriso/article-preview",
@@ -201,7 +191,7 @@
     "type": "short"
   },
   {
-    "id": 21,
+    "id": 20,
     "title": "Bootcamp testimonial",
     "demo": "https://edriso.github.io/bootcamp-testimonials",
     "code": "https://github.com/edriso/bootcamp-testimonials",
@@ -211,7 +201,7 @@
     "type": "short"
   },
   {
-    "id": 22,
+    "id": 21,
     "title": "Testimonials grid",
     "demo": "https://edriso.github.io/testimonials-grid-section",
     "code": "https://github.com/edriso/testimonials-grid-section",
@@ -221,7 +211,7 @@
     "type": "short"
   },
   {
-    "id": 23,
+    "id": 22,
     "title": "Order Summary",
     "demo": "https://edriso.github.io/order-summary",
     "code": "https://github.com/edriso/order-summary",
@@ -231,7 +221,7 @@
     "type": "short"
   },
   {
-    "id": 24,
+    "id": 23,
     "title": "Tip Splitter",
     "demo": "https://edriso.github.io/tip-calculator-app",
     "code": "https://github.com/edriso/tip-calculator-app",
@@ -241,7 +231,7 @@
     "type": "app"
   },
   {
-    "id": 25,
+    "id": 24,
     "title": "Perspective playground",
     "demo": "https://edriso.github.io/perspective-playground",
     "code": "https://github.com/edriso/perspective-playground",
@@ -251,7 +241,7 @@
     "type": "short"
   },
   {
-    "id": 26,
+    "id": 25,
     "title": "Faq accordion",
     "demo": "https://edriso.github.io/faq-accordion",
     "code": "https://github.com/edriso/faq-accordion",
@@ -261,7 +251,7 @@
     "type": "short"
   },
   {
-    "id": 27,
+    "id": 26,
     "title": "Drum kit",
     "demo": "https://edriso.github.io/drum-kit",
     "code": "https://github.com/edriso/drum-kit",
@@ -271,7 +261,7 @@
     "type": "app"
   },
   {
-    "id": 28,
+    "id": 27,
     "title": "Natours",
     "demo": "https://edriso.github.io/natours",
     "code": "https://github.com/edriso/natours",
@@ -281,7 +271,7 @@
     "type": "short"
   },
   {
-    "id": 29,
+    "id": 28,
     "title": "Todolist locally",
     "demo": "https://edriso.github.io/todolist-locally",
     "code": "https://github.com/edriso/todolist-locally",
@@ -291,7 +281,7 @@
     "type": "app"
   },
   {
-    "id": 30,
+    "id": 29,
     "title": "Sunnyside",
     "demo": "https://edriso.github.io/sunnyside",
     "code": "https://github.com/edriso/sunnyside",
@@ -301,7 +291,7 @@
     "type": "short"
   },
   {
-    "id": 31,
+    "id": 30,
     "title": "Weatherapp",
     "demo": "https://weather-app-4q9w.onrender.com",
     "code": "https://github.com/edriso/weatherapp",
@@ -311,7 +301,7 @@
     "type": "app"
   },
   {
-    "id": 32,
+    "id": 31,
     "title": "Class 101",
     "demo": "https://students-class.netlify.app",
     "code": "https://github.com/edriso/students-class",
@@ -321,7 +311,7 @@
     "type": "short"
   },
   {
-    "id": 33,
+    "id": 32,
     "title": "Pet Appointment",
     "demo": "https://pet-appointment-react.netlify.app/",
     "code": "https://github.com/edriso/react-appointment",
@@ -331,7 +321,7 @@
     "type": "short"
   },
   {
-    "id": 34,
+    "id": 33,
     "title": "My Reads",
     "demo": "https://my-reads-react1.netlify.app",
     "code": "https://github.com/edriso/my-reads",
@@ -341,7 +331,7 @@
     "type": "app"
   },
   {
-    "id": 35,
+    "id": 34,
     "title": "Node Farm",
     "demo": "",
     "code": "https://github.com/edriso/node-farm",
@@ -351,7 +341,7 @@
     "type": "short"
   },
   {
-    "id": 36,
+    "id": 35,
     "title": "alarm clock",
     "demo": "https://edriso.github.io/alarm-clock",
     "code": "https://github.com/edriso/alarm-clock",
@@ -361,7 +351,7 @@
     "type": "app"
   },
   {
-    "id": 37,
+    "id": 36,
     "title": "journal",
     "demo": "",
     "code": "https://github.com/edriso/journal-rest-api",
@@ -371,7 +361,7 @@
     "type": "app"
   },
   {
-    "id": 38,
+    "id": 37,
     "title": "store API",
     "demo": "",
     "code": "https://github.com/edriso/store-api",
@@ -381,7 +371,7 @@
     "type": "short"
   },
   {
-    "id": 39,
+    "id": 38,
     "title": "task manager",
     "demo": "https://task-manager-jb4e.onrender.com",
     "code": "https://github.com/edriso/task-manager",
@@ -391,7 +381,7 @@
     "type": "app"
   },
   {
-    "id": 40,
+    "id": 39,
     "title": "soccer app",
     "demo": "",
     "code": "https://github.com/edriso/soccer-mern-app",
@@ -401,7 +391,7 @@
     "type": "short"
   },
   {
-    "id": 41,
+    "id": 40,
     "title": "journal laravel",
     "demo": "https://www.awesomescreenshot.com/video/14530872?key=16f8646873a5b84cda1f8720ee7d3b43",
     "code": "https://github.com/edriso/journal-laravel",
@@ -411,7 +401,7 @@
     "type": "app"
   },
   {
-    "id": 42,
+    "id": 41,
     "title": "lite notes",
     "demo": "",
     "code": "https://github.com/edriso/lite-notes",
@@ -421,7 +411,7 @@
     "type": "app"
   },
   {
-    "id": 43,
+    "id": 42,
     "title": "react projects",
     "demo": "",
     "code": "https://github.com/edriso/react-practice-projects",
