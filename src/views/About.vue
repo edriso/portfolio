@@ -4,9 +4,9 @@ export default {
   data() {
     return {
       name: "Mohamed Idris",
-      title: "Web Developer",
+      title: "Frontend Developer",
       about: [
-        "I’m a full-stack web developer passionate about building web applications that are both user-friendly and efficient. I focus on creating apps that solve real problems and are easy for people to use.",
+        "I’m a front-end web developer passionate about building web applications that are both user-friendly and efficient. I focus on creating apps that solve real problems and are easy for people to use.",
         "I hold a Bachelor's degree in Computer Science, where I learned key programming concepts and software development principles. I also completed the ITI web development boot camp, which gave me hands-on experience in building web applications using PHP and Node.js.",
         "I have worked with various technologies, including backend frameworks like Node.js and Laravel, and frontend frameworks such as React.js and Vue.js. I’m also skilled in using databases like MySQL and MongoDB to build reliable and fast applications.",
         "I enjoy working with other professionals to create innovative solutions that help businesses grow and make a positive impact on users.",
@@ -15,12 +15,13 @@ export default {
         "HTML",
         "CSS (SASS, TailwindCSS)",
         "JavaScript",
-        "Node.js (Express)",
-        "PHP (Laravel)",
-        "MySQL",
+        "TypeScript",
         "React.js",
         "Vue.js",
         "Alpine.js",
+        "Node.js (Express)",
+        "PHP (Laravel)",
+        "MySQL",
         "MongoDB",
         "Git",
       ],
