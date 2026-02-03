@@ -24,6 +24,7 @@ export default {
         class="post__img"
         :src="imageSrc(post.img)"
         :alt="post.title"
+        loading="lazy"
         decoding="async"
       />
       <p class="post__title" v-if="post.title">{{ post.title }}</p>
