@@ -368,5 +368,55 @@
     "tags": ["JavaScript", "html-to-image"],
     "date": "Aug 2025",
     "type": "app"
+  },
+  {
+    "id": 39,
+    "title": "One Lesson Up",
+    "demo": "https://onelessonup.com",
+    "code": "https://github.com/edriso/one-lesson-up",
+    "img": "one-lesson-up.png",
+    "tags": ["Laravel", "Vue.js"],
+    "date": "Sep 2025",
+    "type": "app"
+  },
+  {
+    "id": 40,
+    "title": "Waddda",
+    "demo": "https://youtu.be/GuwuUd3l59w",
+    "code": "https://github.com/edriso/waddda",
+    "img": "waddda.png",
+    "tags": ["React", "TypeScript", "Laravel"],
+    "date": "Nov 2025",
+    "type": "app"
+  },
+  {
+    "id": 41,
+    "title": "Unsplash Images",
+    "demo": "https://roaring-panda-fa2d04.netlify.app",
+    "code": "https://github.com/edriso/react-unsplash-images",
+    "img": "unsplash-images.png",
+    "tags": ["React", "React Query", "Axios"],
+    "date": "Jan 2026",
+    "type": "short"
+  },
+  {
+    "id": 42,
+    "title": "Do Meows",
+    "demo": "https://youtu.be/-5BT8NKlWeM",
+    "code": "https://github.com/edriso/do-meows-react-native-expo",
+    "img": "do-meows.png",
+    "tags": ["React Native", "Expo"],
+    "date": "Jan 2026",
+    "type": "short"
+  },
+  {
+    "id": 43,
+    "title": "Flyways",
+    "demo": "https://flyways-spotter.netlify.app",
+    "code": "https://github.com/edriso/flyways",
+    "img": "flyways.png",
+    "tags": ["React", "React Query", "TanStack Router", "shadcn", "Recharts"],
+    "date": "Jan 2026",
+    "type": "app"
   }
 ]
