@@ -19,6 +19,8 @@ export default {
       :href="post.demo || post.code"
       target="_blank"
       rel="noopener noreferrer"
+      title="View Demo"
+      aria-label="View Demo"
     >
       <img
         class="post__img"
@@ -31,7 +33,7 @@ export default {
     </a>
 
     <div class="post__body flex flex-jc-sb flex-ai-c flex-gap-md">
-      <ul class="post__tags flex flex-gap-sm">
+      <ul class="post__tags flex flex-gap-sm flex-wrap flex-ai-c">
         <li v-for="tag in post.tags" :key="tag">
           <router-link
             :to="{ name: 'tag', params: { tag: tag.toLowerCase() } }"
@@ -46,7 +48,8 @@ export default {
         target="_blank"
         rel="noopener noreferrer"
         class="post__code"
-        title="Code"
+        title="View Code"
+        aria-label="View Code"
       >
         <!-- <svg
           xmlns="http://www.w3.org/2000/svg"
