@@ -7,8 +7,8 @@ function Kudos() {
       <div className="text-center mb-10">
         <h1 className="font-display text-3xl md:text-4xl mb-3">Kudos</h1>
         <p className="text-muted max-w-2xl mx-auto">
-          During my time at Scandiweb, I had the chance to use two wonderful
-          apps. One is{' '}
+          Feedback and recognition I&apos;ve received from team leads, PMs, and
+          colleagues at Scandiweb through{' '}
           <a
             href="https://www.small-improvements.com"
             target="_blank"
@@ -16,12 +16,17 @@ function Kudos() {
             className="text-primary hover:underline"
           >
             Small Improvements
+          </a>{' '}
+          and{' '}
+          <a
+            href="https://crowdbonus.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary hover:underline"
+          >
+            Crowdbonus
           </a>
-          , a platform where team leads and colleagues provide valuable
-          feedback, and the other is Crowdbonus, which allowed employees to
-          share &euro;50 as a token of appreciation (paused as of July 2025).
-          Below are some of the feedback and recognition I received through
-          these platforms.
+          .
         </p>
         <a
           href="https://drive.google.com/drive/folders/1xE5Q3hZa2Ibg390MCRJc1Z45yObDNmSi?usp=sharing"
