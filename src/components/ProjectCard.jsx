@@ -1,6 +1,6 @@
 function ProjectCard({ project }) {
   return (
-    <article className="group rounded-xl overflow-hidden bg-surface border border-border transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+    <article className="group flex flex-col rounded-xl overflow-hidden bg-surface border border-border transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
       <div className="aspect-[16/10] overflow-hidden">
         <img
           src={project.img}
@@ -9,7 +9,7 @@ function ProjectCard({ project }) {
         />
       </div>
 
-      <div className="p-4">
+      <div className="flex flex-col flex-1 p-4">
         <div className="flex items-center justify-between mb-2">
           <h3 className="font-display text-lg">{project.title}</h3>
           <span className="text-xs text-muted">{project.date}</span>
@@ -26,7 +26,7 @@ function ProjectCard({ project }) {
           ))}
         </div>
 
-        <div className="flex gap-3">
+        <div className="flex gap-3 mt-auto">
           {project.demo && (
             <a
               href={project.demo}
