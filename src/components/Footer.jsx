@@ -27,7 +27,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             title={link.name}
-            className="text-foreground group-hover/footer:text-muted hover:!text-foreground active:!text-foreground transition-colors"
+            className="text-foreground group-hover/footer:text-muted hover:!text-primary active:!text-foreground transition-colors"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
