@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -7,13 +8,25 @@ import Showcase from './pages/Showcase';
 import Kudos from './pages/Kudos';
 import Contact from './pages/Contact';
 
+const PAGE_TITLES = {
+  '/': 'Mohamed Idris',
+  '/showcase': 'Mohamed Idris | Showcase',
+  '/kudos': 'Mohamed Idris | Kudos',
+  '/contact': 'Mohamed Idris | Contact',
+};
+
 function App() {
   const { pathname } = useLocation();
 
+  useEffect(() => {
+    document.title = PAGE_TITLES[pathname] || 'Mohamed Idris';
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
-    <div className="flex flex-col min-h-screen" key={pathname}>
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="mx-auto w-full max-w-[1110px] px-5 py-8 md:px-8 md:py-12 flex-1">
+      <main className="mx-auto w-full max-w-[1110px] px-5 py-8 md:px-8 md:py-12 flex-1 animate-fade-in">
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/showcase" element={<Showcase />} />
