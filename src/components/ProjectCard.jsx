@@ -12,7 +12,7 @@ function ProjectCard({ project }) {
           alt={project.title}
           loading="lazy"
           onLoad={() => setLoaded(true)}
-          className={`w-full h-full object-cover transition-all duration-500 group-hover:scale-105 ${
+          className={`w-full h-full object-cover transition-opacity duration-500 ${
             loaded ? 'opacity-100' : 'opacity-0'
           }`}
         />
