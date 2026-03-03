@@ -1,1 +1,109 @@
 @import 'tailwindcss';
+
+@theme {
+  --font-display: 'DM Serif Display', serif;
+  --font-body: 'Inter', sans-serif;
+
+  --color-bg: hsl(0, 0%, 95%);
+  --color-bg-header: hsl(0, 0%, 100%);
+  --color-bg-card: hsl(0, 0%, 100%);
+  --color-font: hsl(0, 0%, 20%);
+  --color-font-light: hsl(0, 0%, 45%);
+  --color-active: hsl(44, 98%, 50%);
+  --color-border: hsl(0, 0%, 88%);
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  html.dark {
+    --color-bg: hsl(240, 4%, 9%);
+    --color-bg-header: hsl(240, 13%, 13%);
+    --color-bg-card: hsl(240, 10%, 14%);
+    --color-font: hsl(0, 0%, 100%);
+    --color-font-light: hsl(0, 0%, 60%);
+    --color-active: hsl(44, 98%, 64%);
+    --color-border: hsl(240, 10%, 22%);
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--color-font);
+    background-color: var(--color-bg);
+    min-height: 100vh;
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
+  }
+
+  ::selection {
+    background-color: var(--color-active);
+    color: hsl(0, 0%, 20%);
+  }
+
+  a {
+    color: var(--color-font);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: var(--color-active);
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-font-light);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-font);
+  }
+
+  /* Wave animation for emojis */
+  @keyframes wave {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(20deg);
+    }
+    50% {
+      transform: rotate(-10deg);
+    }
+    75% {
+      transform: rotate(15deg);
+    }
+  }
+
+  .wave {
+    display: inline-block;
+    animation: wave 1.5s ease-in-out infinite;
+    transform-origin: 70% 70%;
+  }
+}
