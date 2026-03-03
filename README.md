@@ -1,3 +1,35 @@
 # Portfolio
 
-Personal portfolio built with React and Tailwind CSS.
+Personal portfolio built with React 19, Tailwind CSS v4, and Vite.
+
+## Pages
+
+- **About** - Bio, profile photo, and skills
+- **Showcase** - Curated project cards with live demos and source links
+- **Kudos** - Testimonials and feedback from colleagues
+- **Contact** - Email and social links
+
+## Tech Stack
+
+- React 19 + React Router v7
+- Tailwind CSS v4 (CSS-first config with `@theme inline`)
+- Vite 7
+- ESLint + Prettier
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+## Scripts
+
+| Command              | Description                     |
+| -------------------- | ------------------------------- |
+| `npm run dev`        | Start dev server                |
+| `npm run build`      | Production build                |
+| `npm run preview`    | Preview production build        |
+| `npm run lint`       | Run ESLint                      |
+| `npm run format`     | Format code with Prettier       |
+| `npm run format:check` | Check formatting              |
