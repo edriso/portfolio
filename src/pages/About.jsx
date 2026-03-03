@@ -49,9 +49,8 @@ function About() {
       {/* Bio */}
       <div className="max-w-2xl space-y-4 text-muted leading-relaxed mb-12">
         <p>
-          I&apos;m a software engineer who loves building web apps that are
-          user-friendly and get the job done. I focus on creating things that
-          solve real problems and are easy for people to use.
+          I&apos;m a software engineer who enjoys building web apps that solve
+          real problems and are easy for people to use.
         </p>
         <p>
           I have a Bachelor&apos;s degree in Computer Science and completed the
@@ -59,14 +58,13 @@ function About() {
           building web apps with PHP and Node.js.
         </p>
         <p>
-          I&apos;ve worked with different technologies — backend stuff like
-          Node.js and Laravel, frontend frameworks like React.js and Vue.js, and
-          databases like MySQL and MongoDB.
+          Since then, I&apos;ve worked with frontend frameworks like React.js
+          and Vue.js, backend tools like Node.js and Laravel, and databases like
+          MySQL and MongoDB.
         </p>
         <p>
-          I enjoy collaborating with others to build solutions that help
-          businesses grow. Currently, I&apos;m working as a Web Developer at
-          Scandiweb, building and maintaining e-commerce solutions.
+          Currently, I&apos;m working as a Web Developer at Scandiweb, building
+          and maintaining e-commerce solutions.
         </p>
       </div>
 
