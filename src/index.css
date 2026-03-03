@@ -3,9 +3,9 @@
 @layer base {
   :root {
     --background: hsl(0, 0%, 95%);
-    --surface: hsl(0, 0%, 100%);
+    --surface: hsl(0, 0%, 99%);
     --foreground: hsl(0, 0%, 20%);
-    --muted: hsl(0, 0%, 45%);
+    --muted: hsl(0, 0%, 38%);
     --primary: hsl(0, 0%, 20%);
     --border: hsl(0, 0%, 88%);
   }
@@ -120,6 +120,27 @@
     display: inline-block;
     animation: wave 1.5s ease-in-out infinite;
     transform-origin: 70% 70%;
+  }
+
+  /* Image shimmer placeholder */
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+
+  .shimmer {
+    background: linear-gradient(
+      90deg,
+      var(--border) 25%,
+      var(--background) 50%,
+      var(--border) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s ease-in-out infinite;
   }
 
   /* Page fade-in animation */
