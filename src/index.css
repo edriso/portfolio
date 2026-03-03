@@ -39,65 +39,56 @@
   *,
   *::before,
   *::after {
-    box-sizing: border-box;
+    @apply box-border;
   }
 
   html {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    scroll-behavior: smooth;
+    @apply antialiased scroll-smooth;
   }
 
   body {
-    font-family: var(--font-body);
-    color: var(--foreground);
-    background-color: var(--background);
-    min-height: 100vh;
+    @apply font-body text-foreground bg-background min-h-screen;
     transition:
       background-color 0.3s ease,
       color 0.3s ease;
   }
 
   ::selection {
-    background-color: var(--primary);
-    color: var(--surface);
+    @apply bg-primary text-surface;
   }
 
   a {
-    color: var(--foreground);
-    text-decoration: none;
+    @apply text-foreground no-underline;
     transition: color 0.2s ease;
   }
 
   a:hover {
-    color: var(--primary);
+    @apply text-primary;
   }
 
   button {
-    cursor: pointer;
+    @apply cursor-pointer;
   }
 
   img {
-    max-width: 100%;
-    display: block;
+    @apply max-w-full block;
   }
 
   /* Scrollbar */
   ::-webkit-scrollbar {
-    width: 8px;
+    @apply w-2;
   }
 
   ::-webkit-scrollbar-track {
-    background: var(--background);
+    @apply bg-background;
   }
 
   ::-webkit-scrollbar-thumb {
-    background: var(--muted);
-    border-radius: 4px;
+    @apply bg-muted rounded;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--foreground);
+    @apply bg-foreground;
   }
 
   /* Wave animation for emojis */
@@ -118,7 +109,7 @@
   }
 
   .wave {
-    display: inline-block;
+    @apply inline-block;
     animation: wave 2s ease-in-out infinite;
     transform-origin: 70% 70%;
   }
@@ -148,7 +139,7 @@
   @keyframes fade-in {
     from {
       opacity: 0;
-      transform: translateY(8px);
+      transform: translateY(0.5rem);
     }
     to {
       opacity: 1;
@@ -158,14 +149,12 @@
 
   /* Sibling dim effect */
   .dim-siblings:has(> *:hover) > *:not(:hover) {
-    opacity: 0.4;
+    @apply opacity-40;
   }
 
   /* Focus styles for keyboard navigation */
   :focus-visible {
-    outline: 2px solid var(--primary);
-    outline-offset: 2px;
-    border-radius: 2px;
+    @apply outline-2 outline-primary outline-offset-2 rounded-sm;
   }
 
   /* Respect reduced motion preferences */
@@ -179,7 +168,7 @@
     }
 
     html {
-      scroll-behavior: auto;
+      @apply scroll-auto;
     }
   }
 }
