@@ -1,12 +1,20 @@
+import { useState } from 'react';
+
 function ProjectCard({ project }) {
+  const [loaded, setLoaded] = useState(false);
+
   return (
     <article className="group flex flex-col rounded-xl overflow-hidden bg-surface border border-border transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
-      <div className="aspect-[16/10] overflow-hidden">
+      <div className="relative aspect-[16/10] overflow-hidden">
+        <div className={`absolute inset-0 shimmer ${loaded ? 'hidden' : ''}`} />
         <img
           src={project.img}
           alt={project.title}
           loading="lazy"
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          onLoad={() => setLoaded(true)}
+          className={`w-full h-full object-cover transition-all duration-500 group-hover:scale-105 ${
+            loaded ? 'opacity-100' : 'opacity-0'
+          }`}
         />
       </div>
 

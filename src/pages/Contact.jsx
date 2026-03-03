@@ -1,13 +1,27 @@
+import { useState } from 'react';
 import contactImg from '../assets/contact.jpg';
 import callSvg from '../assets/call.svg';
 
 function Contact() {
+  const [loaded, setLoaded] = useState(false);
+
   return (
     <section className="flex flex-col items-center">
       <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16 max-w-4xl mx-auto">
         {/* Image */}
-        <div className="w-64 md:w-80 shrink-0">
-          <img src={contactImg} alt="Contact" className="w-full rounded-2xl" />
+        <div className="relative w-64 md:w-80 shrink-0">
+          <div
+            className={`absolute inset-0 rounded-2xl shimmer ${loaded ? 'hidden' : ''}`}
+          />
+          <img
+            src={contactImg}
+            alt="Contact"
+            loading="lazy"
+            onLoad={() => setLoaded(true)}
+            className={`w-full rounded-2xl transition-opacity duration-500 ${
+              loaded ? 'opacity-100' : 'opacity-0'
+            }`}
+          />
         </div>
 
         {/* Content */}
