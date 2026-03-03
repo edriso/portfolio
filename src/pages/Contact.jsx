@@ -31,7 +31,7 @@ function Contact() {
 
           <a
             href="mailto:edriso.dev@gmail.com"
-            className="inline-block px-6 py-2.5 rounded-full bg-primary text-white font-medium text-sm hover:opacity-90 transition-opacity"
+            className="inline-block px-6 py-2.5 rounded-full bg-primary text-surface font-medium text-sm hover:opacity-90 transition-opacity"
           >
             edriso.dev@gmail.com
           </a>

@@ -6,7 +6,7 @@
     --surface: hsl(0, 0%, 100%);
     --foreground: hsl(0, 0%, 20%);
     --muted: hsl(0, 0%, 45%);
-    --primary: #4f46e5;
+    --primary: hsl(0, 0%, 20%);
     --border: hsl(0, 0%, 88%);
   }
 
@@ -15,7 +15,7 @@
     --surface: hsl(240, 10%, 14%);
     --foreground: hsl(0, 0%, 100%);
     --muted: hsl(0, 0%, 60%);
-    --primary: #818cf8;
+    --primary: hsl(0, 0%, 100%);
     --border: hsl(240, 10%, 22%);
   }
 }
@@ -59,7 +59,7 @@
 
   ::selection {
     background-color: var(--primary);
-    color: white;
+    color: var(--surface);
   }
 
   a {
