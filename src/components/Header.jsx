@@ -1,6 +1,13 @@
 import { NavLink, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
+const navLinks = [
+  { to: '/', label: 'About' },
+  { to: '/showcase', label: 'Showcase' },
+  { to: '/kudos', label: 'Kudos' },
+  { to: '/contact', label: 'Contact' },
+];
+
 function Header() {
   const [isDark, setIsDark] = useState(() => {
     const saved = localStorage.getItem('darkMode');
@@ -12,13 +19,6 @@ function Header() {
     document.documentElement.classList.toggle('dark', isDark);
     localStorage.setItem('darkMode', isDark);
   }, [isDark]);
-
-  const navLinks = [
-    { to: '/', label: 'About' },
-    { to: '/showcase', label: 'Showcase' },
-    { to: '/kudos', label: 'Kudos' },
-    { to: '/contact', label: 'Contact' },
-  ];
 
   return (
     <header className="sticky top-0 z-50 bg-surface border-b border-border transition-colors duration-300">
@@ -58,7 +58,7 @@ function Header() {
           </button>
         </div>
 
-        <nav className="flex justify-center gap-6">
+        <nav aria-label="Main navigation" className="flex justify-center gap-6">
           {navLinks.map((link) => (
             <NavLink
               key={link.to}

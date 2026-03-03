@@ -4,8 +4,11 @@ function ScrollToTop() {
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => setVisible(window.scrollY > 500);
-    window.addEventListener('scroll', handleScroll);
+    const handleScroll = () => {
+      const shouldShow = window.scrollY > 500;
+      setVisible((prev) => (prev !== shouldShow ? shouldShow : prev));
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -14,6 +17,8 @@ function ScrollToTop() {
   return (
     <button
       onClick={scrollToTop}
+      aria-hidden={!visible}
+      tabIndex={visible ? 0 : -1}
       className={`fixed bottom-6 right-6 w-10 h-10 rounded-full bg-primary text-surface flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 ${
         visible
           ? 'opacity-100 translate-y-0'

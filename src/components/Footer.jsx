@@ -19,14 +19,17 @@ const links = [
 function Footer() {
   return (
     <footer className="group/footer mt-auto py-8 border-t border-border">
-      <nav className="flex justify-center items-center gap-6">
+      <nav
+        aria-label="Social links"
+        className="flex justify-center items-center gap-6"
+      >
         {links.map((link) => (
           <a
             key={link.name}
             href={link.url}
             target="_blank"
             rel="noopener noreferrer"
-            title={link.name}
+            aria-label={link.name}
             className="text-foreground group-hover/footer:text-muted hover:!text-primary active:!text-foreground transition-colors"
           >
             <svg

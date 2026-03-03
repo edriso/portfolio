@@ -39,8 +39,7 @@ function About() {
         </div>
 
         <h1 className="font-display text-3xl md:text-4xl mb-2">
-          Hey{' '}
-          <img src={waveSvg} alt="wave" className="inline-block w-8 h-8 wave" />
+          Hey <img src={waveSvg} alt="" className="inline-block w-8 h-8 wave" />
           , I&apos;m Mohamed Idris
         </h1>
         <p className="text-muted text-lg">Software Engineer</p>
@@ -75,7 +74,7 @@ function About() {
           {skills.map((skill) => (
             <span
               key={skill}
-              className="px-3 py-1.5 text-sm rounded-full bg-surface border border-border text-muted transition-colors hover:border-primary hover:text-primary"
+              className="px-3 py-1.5 text-sm rounded-full bg-surface border border-border text-muted transition-colors hover:border-primary hover:text-primary cursor-default"
             >
               {skill}
             </span>
