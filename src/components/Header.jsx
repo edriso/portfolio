@@ -24,8 +24,8 @@ function Header() {
     <header className="sticky top-0 z-50 bg-surface border-b border-border transition-colors duration-300">
       <div className="mx-auto max-w-[1110px] px-5 py-4 md:px-8">
         <div className="flex items-center justify-between mb-3">
-          <Link to="/" className="font-display text-xl hover:no-underline">
-            @edriso
+          <Link to="/" className="font-display hover:no-underline">
+            <span className="text-muted">@</span>edriso
           </Link>
 
           <button
