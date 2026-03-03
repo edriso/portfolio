@@ -1,3 +1,4 @@
+// Icons link: https://iconmonstr.com/
 const links = [
   {
     name: 'GitHub',
@@ -30,7 +31,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label={link.name}
-            className="text-foreground group-hover/footer:text-muted hover:!text-primary active:!text-foreground transition-colors"
+            className="text-foreground group-hover/footer:text-muted group-hover/footer:hover:text-primary group-hover/footer:active:text-foreground transition-colors"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
