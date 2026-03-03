@@ -1,16 +1,35 @@
 @import 'tailwindcss';
 
-@theme {
+@layer base {
+  :root {
+    --background: hsl(0, 0%, 95%);
+    --surface: hsl(0, 0%, 100%);
+    --foreground: hsl(0, 0%, 20%);
+    --muted: hsl(0, 0%, 45%);
+    --primary: #4f46e5;
+    --border: hsl(0, 0%, 88%);
+  }
+
+  html.dark {
+    --background: hsl(240, 4%, 9%);
+    --surface: hsl(240, 10%, 14%);
+    --foreground: hsl(0, 0%, 100%);
+    --muted: hsl(0, 0%, 60%);
+    --primary: #818cf8;
+    --border: hsl(240, 10%, 22%);
+  }
+}
+
+@theme inline {
   --font-display: 'DM Serif Display', serif;
   --font-body: 'Inter', sans-serif;
 
-  --color-bg: hsl(0, 0%, 95%);
-  --color-bg-header: hsl(0, 0%, 100%);
-  --color-bg-card: hsl(0, 0%, 100%);
-  --color-font: hsl(0, 0%, 20%);
-  --color-font-light: hsl(0, 0%, 45%);
-  --color-active: hsl(44, 98%, 50%);
-  --color-border: hsl(0, 0%, 88%);
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-primary: var(--primary);
+  --color-border: var(--border);
 
   --animate-fade-in: fade-in 0.4s ease-out;
 }
@@ -28,20 +47,10 @@
     scroll-behavior: smooth;
   }
 
-  html.dark {
-    --color-bg: hsl(240, 4%, 9%);
-    --color-bg-header: hsl(240, 13%, 13%);
-    --color-bg-card: hsl(240, 10%, 14%);
-    --color-font: hsl(0, 0%, 100%);
-    --color-font-light: hsl(0, 0%, 60%);
-    --color-active: hsl(44, 98%, 64%);
-    --color-border: hsl(240, 10%, 22%);
-  }
-
   body {
     font-family: var(--font-body);
-    color: var(--color-font);
-    background-color: var(--color-bg);
+    color: var(--foreground);
+    background-color: var(--background);
     min-height: 100vh;
     transition:
       background-color 0.3s ease,
@@ -49,18 +58,18 @@
   }
 
   ::selection {
-    background-color: var(--color-active);
-    color: hsl(0, 0%, 20%);
+    background-color: var(--primary);
+    color: white;
   }
 
   a {
-    color: var(--color-font);
+    color: var(--foreground);
     text-decoration: none;
     transition: color 0.2s ease;
   }
 
   a:hover {
-    color: var(--color-active);
+    color: var(--primary);
   }
 
   img {
@@ -74,16 +83,16 @@
   }
 
   ::-webkit-scrollbar-track {
-    background: var(--color-bg);
+    background: var(--background);
   }
 
   ::-webkit-scrollbar-thumb {
-    background: var(--color-font-light);
+    background: var(--muted);
     border-radius: 4px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: var(--color-font);
+    background: var(--foreground);
   }
 
   /* Wave animation for emojis */
@@ -123,7 +132,7 @@
 
   /* Focus styles for keyboard navigation */
   :focus-visible {
-    outline: 2px solid var(--color-active);
+    outline: 2px solid var(--primary);
     outline-offset: 2px;
     border-radius: 2px;
   }

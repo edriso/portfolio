@@ -26,7 +26,10 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
-      <main className="mx-auto w-full max-w-[1110px] px-5 py-8 md:px-8 md:py-12 flex-1 animate-fade-in">
+      <main
+        key={pathname}
+        className="mx-auto w-full max-w-[1110px] px-5 py-8 md:px-8 md:py-12 flex-1 animate-fade-in"
+      >
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/showcase" element={<Showcase />} />

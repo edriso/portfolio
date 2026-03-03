@@ -6,14 +6,14 @@ function Kudos() {
     <section>
       <div className="text-center mb-10">
         <h1 className="font-display text-3xl md:text-4xl mb-3">Kudos</h1>
-        <p className="text-(--color-font-light) max-w-2xl mx-auto">
+        <p className="text-muted max-w-2xl mx-auto">
           During my time at Scandiweb, I had the chance to use two wonderful
           apps. One is{' '}
           <a
             href="https://www.small-improvements.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-(--color-active) hover:underline"
+            className="text-primary hover:underline"
           >
             Small Improvements
           </a>
@@ -27,7 +27,7 @@ function Kudos() {
           href="https://drive.google.com/drive/folders/1xE5Q3hZa2Ibg390MCRJc1Z45yObDNmSi?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-3 text-sm text-(--color-active) hover:underline"
+          className="inline-block mt-3 text-sm text-primary hover:underline"
         >
           View full documentation &rarr;
         </a>

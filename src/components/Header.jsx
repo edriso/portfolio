@@ -21,16 +21,16 @@ function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-(--color-bg-header) border-b border-(--color-border) transition-colors duration-300">
+    <header className="sticky top-0 z-50 bg-surface border-b border-border transition-colors duration-300">
       <div className="mx-auto max-w-[1110px] px-5 py-4 md:px-8">
         <div className="flex items-center justify-between mb-3">
           <Link to="/" className="font-display text-2xl hover:no-underline">
-            edriso
+            @edriso
           </Link>
 
           <button
             onClick={() => setIsDark(!isDark)}
-            className="p-2 rounded-lg hover:bg-(--color-bg) transition-colors cursor-pointer"
+            className="p-2 rounded-lg hover:bg-background transition-colors cursor-pointer"
             aria-label="Toggle dark mode"
           >
             <svg
@@ -67,8 +67,8 @@ function Header() {
               className={({ isActive }) =>
                 `text-sm font-medium pb-1 border-b-2 transition-colors ${
                   isActive
-                    ? 'border-(--color-active) text-(--color-active)'
-                    : 'border-transparent hover:text-(--color-active)'
+                    ? 'border-primary text-primary'
+                    : 'border-transparent hover:text-primary'
                 }`
               }
             >

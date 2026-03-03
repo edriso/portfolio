@@ -30,7 +30,7 @@ function About() {
     <section className="flex flex-col items-center">
       {/* Hero */}
       <div className="flex flex-col items-center text-center mb-12">
-        <div className="w-36 h-36 md:w-44 md:h-44 rounded-full border-4 border-(--color-active) overflow-hidden mb-6">
+        <div className="w-36 h-36 md:w-44 md:h-44 overflow-hidden mb-6">
           <img
             src={profilePicture}
             alt="Mohamed Idris"
@@ -43,11 +43,11 @@ function About() {
           <img src={waveSvg} alt="wave" className="inline-block w-8 h-8 wave" />
           , I&apos;m Mohamed Idris
         </h1>
-        <p className="text-(--color-font-light) text-lg">Software Engineer</p>
+        <p className="text-muted text-lg">Software Engineer</p>
       </div>
 
       {/* Bio */}
-      <div className="max-w-2xl space-y-4 text-(--color-font-light) leading-relaxed mb-12">
+      <div className="max-w-2xl space-y-4 text-muted leading-relaxed mb-12">
         <p>
           I&apos;m a software engineer who loves building web apps that are
           user-friendly and get the job done. I focus on creating things that
@@ -77,7 +77,7 @@ function About() {
           {skills.map((skill) => (
             <span
               key={skill}
-              className="px-3 py-1.5 text-sm rounded-full bg-(--color-bg-card) border border-(--color-border) text-(--color-font-light) transition-colors hover:border-(--color-active) hover:text-(--color-active)"
+              className="px-3 py-1.5 text-sm rounded-full bg-surface border border-border text-muted transition-colors hover:border-primary hover:text-primary"
             >
               {skill}
             </span>

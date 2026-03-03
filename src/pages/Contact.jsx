@@ -21,17 +21,17 @@ function Contact() {
             />
           </h1>
 
-          <p className="text-(--color-font-light) mb-2">
+          <p className="text-muted mb-2">
             Thanks for checking out my portfolio!
           </p>
-          <p className="text-(--color-font-light) mb-6">
+          <p className="text-muted mb-6">
             If you would like for us to work together, please don&apos;t
             hesitate to contact me.
           </p>
 
           <a
             href="mailto:edriso.dev@gmail.com"
-            className="inline-block px-6 py-2.5 rounded-full bg-(--color-active) text-gray-900 font-medium text-sm hover:opacity-90 transition-opacity"
+            className="inline-block px-6 py-2.5 rounded-full bg-primary text-white font-medium text-sm hover:opacity-90 transition-opacity"
           >
             edriso.dev@gmail.com
           </a>
@@ -41,7 +41,7 @@ function Contact() {
               href="https://github.com/edriso"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-(--color-font-light) hover:text-(--color-active) transition-colors text-sm"
+              className="text-muted hover:text-primary transition-colors text-sm"
             >
               GitHub
             </a>
@@ -49,7 +49,7 @@ function Contact() {
               href="https://www.linkedin.com/in/edriso"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-(--color-font-light) hover:text-(--color-active) transition-colors text-sm"
+              className="text-muted hover:text-primary transition-colors text-sm"
             >
               LinkedIn
             </a>
@@ -57,7 +57,7 @@ function Contact() {
               href="https://edriso.github.io"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-(--color-font-light) hover:text-(--color-active) transition-colors text-sm"
+              className="text-muted hover:text-primary transition-colors text-sm"
             >
               Resume
             </a>

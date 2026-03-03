@@ -1,6 +1,6 @@
 function ProjectCard({ project }) {
   return (
-    <article className="group rounded-xl overflow-hidden bg-(--color-bg-card) border border-(--color-border) transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+    <article className="group rounded-xl overflow-hidden bg-surface border border-border transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
       <div className="aspect-[16/10] overflow-hidden">
         <img
           src={project.img}
@@ -12,16 +12,14 @@ function ProjectCard({ project }) {
       <div className="p-4">
         <div className="flex items-center justify-between mb-2">
           <h3 className="font-display text-lg">{project.title}</h3>
-          <span className="text-xs text-(--color-font-light)">
-            {project.date}
-          </span>
+          <span className="text-xs text-muted">{project.date}</span>
         </div>
 
         <div className="flex flex-wrap gap-1.5 mb-3">
           {project.tags.map((tag) => (
             <span
               key={tag}
-              className="text-xs px-2 py-0.5 rounded-full bg-(--color-bg) text-(--color-font-light)"
+              className="text-xs px-2 py-0.5 rounded-full bg-background text-muted"
             >
               {tag}
             </span>
@@ -34,7 +32,7 @@ function ProjectCard({ project }) {
               href={project.demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-medium text-(--color-active) hover:underline"
+              className="text-sm font-medium text-primary hover:underline"
             >
               Live Demo
             </a>
@@ -43,7 +41,7 @@ function ProjectCard({ project }) {
             href={project.code}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm font-medium text-(--color-font-light) hover:text-(--color-font)"
+            className="text-sm font-medium text-muted hover:text-foreground"
           >
             Source Code
           </a>
