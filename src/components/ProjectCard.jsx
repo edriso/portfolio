@@ -4,7 +4,7 @@ function ProjectCard({ project }) {
   const [loaded, setLoaded] = useState(false);
 
   return (
-    <article className="group flex flex-col rounded-xl overflow-hidden bg-surface border border-border transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
+    <article className="group flex flex-col rounded-xl overflow-hidden bg-surface border border-border transition-all duration-300 hover:shadow-lg">
       <div className="relative aspect-[16/10] overflow-hidden">
         <div className={`absolute inset-0 shimmer ${loaded ? 'hidden' : ''}`} />
         <img
