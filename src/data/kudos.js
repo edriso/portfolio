@@ -1,16 +1,3 @@
-import crowdbonus from '../assets/kudos/crowdbonus.png';
-import si1 from '../assets/kudos/small-improvements-1.png';
-import si2 from '../assets/kudos/small-improvements-2.png';
-import si3 from '../assets/kudos/small-improvements-3.png';
-import si4 from '../assets/kudos/small-improvements-4.png';
-import si5 from '../assets/kudos/small-improvements-5.png';
-import si6 from '../assets/kudos/small-improvements-6.png';
-
-export const platforms = {
-  crowdbonus,
-  'small-improvements': [si1, si2, si3, si4, si5, si6],
-};
-
 const kudos = [
   {
     id: 41,
