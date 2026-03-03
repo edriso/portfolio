@@ -30,7 +30,7 @@ function About() {
     <section className="flex flex-col items-center">
       {/* Hero */}
       <div className="flex flex-col items-center text-center mb-12">
-        <div className="w-36 h-36 md:w-44 md:h-44 overflow-hidden mb-6">
+        <div className="w-36 h-36 md:w-44 md:h-44 rounded-full border-4 border-primary overflow-hidden mb-6">
           <img
             src={profilePicture}
             alt="Mohamed Idris"

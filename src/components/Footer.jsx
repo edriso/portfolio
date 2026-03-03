@@ -18,7 +18,7 @@ const links = [
 
 function Footer() {
   return (
-    <footer className="mt-auto py-8 border-t border-border">
+    <footer className="group/footer mt-auto py-8 border-t border-border">
       <nav className="flex justify-center items-center gap-6">
         {links.map((link) => (
           <a
@@ -27,7 +27,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             title={link.name}
-            className="text-muted hover:text-primary transition-colors"
+            className="text-foreground group-hover/footer:text-muted hover:!text-foreground active:!text-foreground transition-colors"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
