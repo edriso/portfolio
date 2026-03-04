@@ -1,154 +1,163 @@
-import flyways from '../assets/showcase/flyways.png';
-import waddda from '../assets/showcase/waddda.png';
-import oneLessonUp from '../assets/showcase/one-lesson-up.png';
-import iForgotToSaySorry from '../assets/showcase/i-forgot-to-say-sorry.png';
-import growAndLetGo from '../assets/showcase/grow-and-let-go.png';
-import munajaa from '../assets/showcase/munajaa.png';
-import gratefulHeart from '../assets/showcase/grateful-heart.png';
-import doMeows from '../assets/showcase/do-meows.png';
-import unsplashImages from '../assets/showcase/unsplash-images.png';
-import cupOfThat from '../assets/showcase/cup-of-that.png';
-import fancyQuiz from '../assets/showcase/fancy-quiz.png';
-import weatherApp from '../assets/showcase/weather-app.png';
-import natours from '../assets/showcase/natours.png';
-import easybank from '../assets/showcase/easybank.png';
-import sunnyside from '../assets/showcase/sunnyside.png';
+const images = import.meta.glob('../assets/showcase/*.{png,jpg,jpeg,webp}', {
+  eager: true,
+});
+
+function getImage(filename) {
+  const match = Object.entries(images).find(([path]) =>
+    path.endsWith(filename),
+  );
+  if (match) return match[1].default;
+
+  const placeholder = Object.entries(images).find(([path]) =>
+    path.endsWith('0-placeholder.jpg'),
+  );
+  return placeholder?.[1].default;
+}
 
 const projects = [
   {
-    id: 43,
+    id: 16,
+    title: 'DevRef',
+    demo: 'https://dev-ref.netlify.app',
+    code: 'https://github.com/edriso/dev-ref',
+    img: getImage('dev-ref.png'),
+    tags: ['Claude', 'React', 'JavaScript'],
+    date: 'Mar 2026',
+  },
+  {
+    id: 15,
+    title: 'Type Down',
+    demo: 'https://type-down.netlify.app',
+    code: 'https://github.com/edriso/type-down',
+    img: getImage('type-down.png'),
+    tags: ['Claude', 'React', 'react-markdown'],
+    date: 'Mar 2026',
+  },
+  {
+    id: 14,
+    title: 'React Notes',
+    demo: 'https://react-course-notes.netlify.app',
+    code: 'https://github.com/edriso/react-course-notes',
+    img: getImage('react-course-notes.png'),
+    tags: ['Claude', 'React'],
+    date: 'Feb 2026',
+  },
+  {
+    id: 13,
     title: 'Flyways',
     demo: 'https://flyways-spotter.netlify.app',
     code: 'https://github.com/edriso/flyways',
-    img: flyways,
+    img: getImage('flyways.png'),
     tags: ['React', 'React Query', 'TanStack Router', 'shadcn', 'Recharts'],
     date: 'Jan 2026',
   },
   {
-    id: 42,
-    title: 'Do Meows',
-    demo: 'https://youtu.be/-5BT8NKlWeM',
-    code: 'https://github.com/edriso/do-meows-react-native-expo',
-    img: doMeows,
-    tags: ['React Native', 'Expo'],
-    date: 'Jan 2026',
-  },
-  {
-    id: 41,
+    id: 12,
     title: 'Unsplash Images',
     demo: 'https://roaring-panda-fa2d04.netlify.app',
     code: 'https://github.com/edriso/react-unsplash-images',
-    img: unsplashImages,
+    img: getImage('unsplash-images.png'),
     tags: ['React', 'React Query', 'Axios'],
     date: 'Jan 2026',
   },
   {
-    id: 40,
+    id: 11,
     title: 'Waddda',
     demo: 'https://youtu.be/GuwuUd3l59w',
     code: 'https://github.com/edriso/waddda',
-    img: waddda,
+    img: getImage('waddda.png'),
     tags: ['React', 'TypeScript', 'Laravel'],
     date: 'Nov 2025',
   },
   {
-    id: 39,
+    id: 10,
     title: 'One Lesson Up',
     demo: 'https://onelessonup.com',
     code: 'https://github.com/edriso/one-lesson-up',
-    img: oneLessonUp,
+    img: getImage('one-lesson-up.png'),
     tags: ['Laravel', 'Vue.js'],
     date: 'Sep 2025',
   },
   {
-    id: 38,
+    id: 9,
     title: 'I forgot to say sorry',
     demo: 'https://edriso.github.io/i-forgot-to-say-sorry',
     code: 'https://github.com/edriso/i-forgot-to-say-sorry',
-    img: iForgotToSaySorry,
+    img: getImage('i-forgot-to-say-sorry.png'),
     tags: ['JavaScript', 'html-to-image'],
     date: 'Aug 2025',
   },
   {
-    id: 37,
+    id: 8,
     title: 'Grow and Let Go',
     demo: 'https://edriso.github.io/grow-and-let-go',
     code: 'https://github.com/edriso/grow-and-let-go',
-    img: growAndLetGo,
+    img: getImage('grow-and-let-go.png'),
     tags: ['JavaScript', 'Cursor AI'],
     date: 'Aug 2025',
   },
   {
-    id: 36,
+    id: 7,
     title: 'Munajaa',
     demo: 'https://edriso.github.io/munajaa',
     code: 'https://github.com/edriso/munajaa',
-    img: munajaa,
+    img: getImage('munajaa.png'),
     tags: ['JavaScript', 'Cursor AI'],
     date: 'Aug 2025',
   },
   {
-    id: 35,
+    id: 6,
     title: 'Grateful Heart',
     demo: 'https://edriso.github.io/grateful-heart',
     code: 'https://github.com/edriso/grateful-heart',
-    img: gratefulHeart,
+    img: getImage('grateful-heart.png'),
     tags: ['JavaScript', 'Cursor AI'],
     date: 'Jul 2025',
   },
   {
-    id: 24,
+    id: 5,
+    title: 'Number Ninjas',
+    demo: 'https://number-little-ninjas.netlify.app',
+    code: 'https://github.com/edriso/number-ninjas',
+    img: getImage('number-ninjas.png'),
+    tags: ['React', 'i18n-react', 'JavaScript'],
+    date: 'Dec 2023',
+  },
+  {
+    id: 4,
     title: 'Weather App',
     demo: 'https://weather-app-4q9w.onrender.com',
     code: 'https://github.com/edriso/weatherapp',
-    img: weatherApp,
+    img: getImage('weather-app.png'),
     tags: ['Node', 'Express', 'EJS'],
     date: 'Jul 2022',
   },
   {
-    id: 11,
+    id: 3,
     title: 'Cup of That',
     demo: 'https://cupofthat-daily.web.app',
     code: 'https://github.com/edriso/cup-of-that',
-    img: cupOfThat,
+    img: getImage('cup-of-that.png'),
     tags: ['Vue', 'SASS'],
     date: 'Apr 2021',
   },
   {
-    id: 6,
+    id: 2,
     title: 'Fancy Quiz',
     demo: 'https://fancy-quiz-app.web.app',
     code: 'https://github.com/edriso/fancy-quiz-app',
-    img: fancyQuiz,
+    img: getImage('fancy-quiz.png'),
     tags: ['Vue', 'Bootstrap Vue'],
     date: 'Jan 2021',
   },
   {
-    id: 23,
-    title: 'Sunnyside',
-    demo: 'https://edriso.github.io/sunnyside',
-    code: 'https://github.com/edriso/sunnyside',
-    img: sunnyside,
-    tags: ['JavaScript', 'Landing Page'],
-    date: 'Jun 2022',
-  },
-  {
-    id: 7,
+    id: 1,
     title: 'Easybank',
     demo: 'https://edriso.github.io/easybank',
     code: 'https://github.com/edriso/easybank',
-    img: easybank,
+    img: getImage('easybank.png'),
     tags: ['Frontend Mentor', 'SASS'],
     date: 'Jan 2021',
-  },
-  {
-    id: 21,
-    title: 'Natours',
-    demo: 'https://edriso.github.io/natours',
-    code: 'https://github.com/edriso/natours',
-    img: natours,
-    tags: ['CSS', 'SASS'],
-    date: 'Apr 2022',
   },
 ];
 
