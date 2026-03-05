@@ -135,10 +135,10 @@ const projects = [
   {
     id: 3,
     title: 'Cup of That',
-    demo: 'https://cupofthat-daily.web.app',
-    code: 'https://github.com/edriso/cup-of-that',
+    demo: 'https://cupofthat.netlify.app',
+    code: 'https://github.com/edriso/cupofthat',
     img: getImage('cup-of-that.png'),
-    tags: ['Vue', 'SASS'],
+    tags: ['Vue'],
     date: 'Apr 2021',
   },
   {

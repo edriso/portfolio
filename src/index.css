@@ -149,7 +149,7 @@
 
   /* Sibling dim effect */
   .dim-siblings:has(> *:hover) > *:not(:hover) {
-    @apply opacity-40;
+    @apply opacity-70;
   }
 
   /* Focus styles for keyboard navigation */
