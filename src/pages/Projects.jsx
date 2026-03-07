@@ -1,11 +1,11 @@
 import projects from '../data/projects';
 import ProjectCard from '../components/ProjectCard';
 
-function Showcase() {
+function Projects() {
   return (
     <section>
       <div className="text-center mb-10">
-        <h1 className="font-display text-3xl md:text-4xl mb-3">Showcase</h1>
+        <h1 className="font-display text-3xl md:text-4xl mb-3">Projects</h1>
         <p className="text-muted max-w-xl mx-auto">
           Some of the projects I&apos;ve built over the years.
         </p>
@@ -20,4 +20,4 @@ function Showcase() {
   );
 }
 
-export default Showcase;
+export default Projects;

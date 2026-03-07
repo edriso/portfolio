@@ -5,7 +5,7 @@ Personal portfolio built with React 19, Tailwind CSS v4, and Vite.
 ## Pages
 
 - **About** - Bio, profile photo, and skills
-- **Showcase** - Curated project cards with live demos and source links
+- **Projects** - Curated project cards with live demos and source links
 - **Kudos** - Testimonials and feedback from colleagues
 - **Contact** - Email and social links
 

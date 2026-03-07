@@ -4,13 +4,13 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import About from './pages/About';
-import Showcase from './pages/Showcase';
+import Projects from './pages/Projects';
 import Kudos from './pages/Kudos';
 import Contact from './pages/Contact';
 
 const PAGE_TITLES = {
   '/': 'Mohamed Idris',
-  '/showcase': 'Mohamed Idris | Showcase',
+  '/projects': 'Mohamed Idris | Projects',
   '/kudos': 'Mohamed Idris | Kudos',
   '/contact': 'Mohamed Idris | Contact',
 };
@@ -32,7 +32,7 @@ function App() {
       >
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="/showcase" element={<Showcase />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/kudos" element={<Kudos />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/" replace />} />
