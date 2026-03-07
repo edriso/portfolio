@@ -16,6 +16,15 @@ function getImage(filename) {
 
 const projects = [
   {
+    id: 17,
+    title: 'Name It',
+    demo: 'https://name-it-in-english.netlify.app',
+    code: 'https://github.com/edriso/name-it',
+    img: getImage('name-it.png'),
+    tags: ['Claude', 'React', 'Framer Motion'],
+    date: 'Mar 2026',
+  },
+  {
     id: 16,
     title: 'DevRef',
     demo: 'https://dev-ref.netlify.app',
