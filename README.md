@@ -5,7 +5,7 @@ Personal portfolio built with React 19, Tailwind CSS v4, and Vite.
 ## Pages
 
 - **About** - Bio, profile photo, and skills
-- **Projects** - Curated project cards with live demos and source links
+- **Projects** - Curated project cards fetched from Contentful (falls back to local data)
 - **Kudos** - Testimonials and feedback from colleagues
 - **Contact** - Email and social links
 
@@ -13,6 +13,7 @@ Personal portfolio built with React 19, Tailwind CSS v4, and Vite.
 
 - React 19 + React Router v7
 - Tailwind CSS v4 (CSS-first config with `@theme inline`)
+- Contentful CMS
 - Vite 7
 - ESLint + Prettier
 
@@ -20,6 +21,7 @@ Personal portfolio built with React 19, Tailwind CSS v4, and Vite.
 
 ```bash
 npm install
+cp .env.example .env  # fill in your Contentful credentials
 npm run dev
 ```
 
