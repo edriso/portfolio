@@ -4,7 +4,12 @@ function ProjectCard({ project }) {
   const [loaded, setLoaded] = useState(false);
 
   return (
-    <article className="group flex flex-col rounded-xl overflow-hidden bg-surface border border-border transition-all duration-300 hover:shadow-lg">
+    <a
+      href={project.repo}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="group flex flex-col rounded-xl overflow-hidden bg-surface border border-border transition-all duration-300 hover:shadow-lg"
+    >
       <div className="relative aspect-[16/10] overflow-hidden">
         <div className={`absolute inset-0 shimmer ${loaded ? 'hidden' : ''}`} />
         <img
@@ -24,7 +29,7 @@ function ProjectCard({ project }) {
           <span className="text-xs text-muted">{project.date}</span>
         </div>
 
-        <div className="flex flex-wrap gap-1.5 mb-3">
+        <div className="flex flex-wrap gap-1.5">
           {project.tags.map((tag) => (
             <span
               key={tag}
@@ -34,29 +39,8 @@ function ProjectCard({ project }) {
             </span>
           ))}
         </div>
-
-        <div className="flex gap-3 mt-auto">
-          {project.demo && (
-            <a
-              href={project.demo}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-medium text-primary hover:underline"
-            >
-              Live Demo
-            </a>
-          )}
-          <a
-            href={project.code}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm font-medium text-muted hover:text-foreground"
-          >
-            Source Code
-          </a>
-        </div>
       </div>
-    </article>
+    </a>
   );
 }
 
