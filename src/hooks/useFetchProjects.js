@@ -10,7 +10,7 @@ const client =
     ? createClient({ space: spaceId, environment: 'master', accessToken })
     : null;
 
-export const useFetchProjects = () => {
+export function useFetchProjects() {
   const [loading, setLoading] = useState(true);
   const [projects, setProjects] = useState([]);
 
@@ -52,4 +52,4 @@ export const useFetchProjects = () => {
   }, [getData]);
 
   return { loading, projects };
-};
+}
