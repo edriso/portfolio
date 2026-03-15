@@ -20,7 +20,7 @@ const projects = [
     title: 'Name It',
     repo: 'https://github.com/edriso/name-it',
     img: getImage('name-it.png'),
-    tags: ['Claude', 'React', 'Framer Motion'],
+    tags: ['React', 'Framer Motion'],
     date: 'Mar 2026',
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     title: 'DevRef',
     repo: 'https://github.com/edriso/dev-ref',
     img: getImage('dev-ref.png'),
-    tags: ['Claude', 'React', 'JavaScript'],
+    tags: ['React', 'JavaScript'],
     date: 'Mar 2026',
   },
   {
@@ -36,7 +36,7 @@ const projects = [
     title: 'Type Down',
     repo: 'https://github.com/edriso/type-down',
     img: getImage('type-down.png'),
-    tags: ['Claude', 'React', 'react-markdown'],
+    tags: ['React', 'react-markdown'],
     date: 'Mar 2026',
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     title: 'React Notes',
     repo: 'https://github.com/edriso/react-course-notes',
     img: getImage('react-course-notes.png'),
-    tags: ['Claude', 'React'],
+    tags: ['React'],
     date: 'Feb 2026',
   },
   {
@@ -92,7 +92,7 @@ const projects = [
     title: 'Grow and Let Go',
     repo: 'https://github.com/edriso/grow-and-let-go',
     img: getImage('grow-and-let-go.png'),
-    tags: ['JavaScript', 'Cursor AI'],
+    tags: ['JavaScript'],
     date: 'Aug 2025',
   },
   {
@@ -100,7 +100,7 @@ const projects = [
     title: 'Munajaa',
     repo: 'https://github.com/edriso/munajaa',
     img: getImage('munajaa.png'),
-    tags: ['JavaScript', 'Cursor AI'],
+    tags: ['JavaScript'],
     date: 'Aug 2025',
   },
   {
@@ -108,7 +108,7 @@ const projects = [
     title: 'Grateful Heart',
     repo: 'https://github.com/edriso/grateful-heart',
     img: getImage('grateful-heart.png'),
-    tags: ['JavaScript', 'Cursor AI'],
+    tags: ['JavaScript'],
     date: 'Jul 2025',
   },
   {
