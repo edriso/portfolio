@@ -17,7 +17,10 @@ function Contact() {
             src={contactImg}
             alt="Contact"
             loading="lazy"
+            width={320}
+            height={320}
             onLoad={() => setLoaded(true)}
+            onError={() => setLoaded(true)}
             className={`w-full rounded-2xl transition-opacity duration-500 ${
               loaded ? 'opacity-100' : 'opacity-0'
             }`}
@@ -28,7 +31,7 @@ function Contact() {
         <div className="text-center lg:text-left">
           <h1 className="font-display text-3xl md:text-4xl mb-4">
             Get in Touch{' '}
-            <img src={callSvg} alt="" className="inline-block w-8 h-8 wave" />
+            <img src={callSvg} alt="" aria-hidden="true" className="inline-block w-8 h-8 wave" />
           </h1>
 
           <p className="text-muted mb-2">

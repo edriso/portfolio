@@ -16,7 +16,10 @@ function ProjectCard({ project }) {
           src={project.img}
           alt={project.title}
           loading="lazy"
+          width={640}
+          height={400}
           onLoad={() => setLoaded(true)}
+          onError={() => setLoaded(true)}
           className={`w-full h-full object-cover transition-opacity duration-500 ${
             loaded ? 'opacity-100' : 'opacity-0'
           }`}

@@ -39,7 +39,13 @@ function About() {
         </div>
 
         <h1 className="font-display text-3xl md:text-4xl mb-2">
-          Hey <img src={waveSvg} alt="" className="inline-block w-8 h-8 wave" />
+          Hey{' '}
+          <img
+            src={waveSvg}
+            alt=""
+            aria-hidden="true"
+            className="inline-block w-8 h-8 wave"
+          />
           , I&apos;m Mohamed Idris
         </h1>
         <p className="text-muted text-lg">Software Engineer</p>
