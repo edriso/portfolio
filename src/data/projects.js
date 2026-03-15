@@ -2,16 +2,15 @@ const images = import.meta.glob('../assets/projects/*.{png,jpg,jpeg,webp}', {
   eager: true,
 });
 
+export const placeholderImg = Object.entries(images).find(([path]) =>
+  path.endsWith('0-placeholder.jpg'),
+)?.[1].default;
+
 function getImage(filename) {
   const match = Object.entries(images).find(([path]) =>
     path.endsWith(filename),
   );
-  if (match) return match[1].default;
-
-  const placeholder = Object.entries(images).find(([path]) =>
-    path.endsWith('0-placeholder.jpg'),
-  );
-  return placeholder?.[1].default;
+  return match ? match[1].default : placeholderImg;
 }
 
 const projects = [
