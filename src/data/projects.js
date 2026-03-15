@@ -34,7 +34,7 @@ const projects = [
     title: 'Type Down',
     url: 'https://github.com/edriso/type-down',
     img: getImage('type-down.png'),
-    tags: ['React', 'react-markdown'],
+    tags: ['React', 'React Markdown'],
   },
   {
     id: 14,
@@ -48,7 +48,7 @@ const projects = [
     title: 'Flyways',
     url: 'https://github.com/edriso/flyways',
     img: getImage('flyways.png'),
-    tags: ['React', 'React Query', 'TanStack Router', 'shadcn', 'Recharts'],
+    tags: ['React', 'React Query', 'TanStack Router', 'shadcn/ui', 'Recharts'],
   },
   {
     id: 12,
@@ -69,7 +69,7 @@ const projects = [
     title: 'One Lesson Up',
     url: 'https://github.com/edriso/one-lesson-up',
     img: getImage('one-lesson-up.png'),
-    tags: ['Laravel', 'Vue.js'],
+    tags: ['Laravel', 'Vue'],
   },
   {
     id: 9,
@@ -104,14 +104,14 @@ const projects = [
     title: 'Number Ninjas',
     url: 'https://github.com/edriso/number-ninjas',
     img: getImage('number-ninjas.png'),
-    tags: ['React', 'i18n-react', 'JavaScript'],
+    tags: ['React', 'react-i18next', 'JavaScript'],
   },
   {
     id: 4,
     title: 'Weather App',
     url: 'https://github.com/edriso/weatherapp',
     img: getImage('weather-app.png'),
-    tags: ['Node', 'Express', 'EJS'],
+    tags: ['Node.js', 'Express', 'EJS'],
   },
   {
     id: 3,
@@ -125,14 +125,14 @@ const projects = [
     title: 'Fancy Quiz',
     url: 'https://github.com/edriso/fancy-quiz-app',
     img: getImage('fancy-quiz.png'),
-    tags: ['Vue', 'Bootstrap Vue'],
+    tags: ['Vue', 'BootstrapVue'],
   },
   {
     id: 1,
     title: 'Easybank',
     url: 'https://github.com/edriso/easybank',
     img: getImage('easybank.png'),
-    tags: ['Frontend Mentor', 'SASS'],
+    tags: ['Frontend Mentor', 'Sass'],
   },
 ];
 
