@@ -21,7 +21,6 @@ const projects = [
     repo: 'https://github.com/edriso/name-it',
     img: getImage('name-it.png'),
     tags: ['React', 'Framer Motion'],
-    date: 'Mar 2026',
   },
   {
     id: 16,
@@ -29,7 +28,6 @@ const projects = [
     repo: 'https://github.com/edriso/dev-ref',
     img: getImage('dev-ref.png'),
     tags: ['React', 'JavaScript'],
-    date: 'Mar 2026',
   },
   {
     id: 15,
@@ -37,7 +35,6 @@ const projects = [
     repo: 'https://github.com/edriso/type-down',
     img: getImage('type-down.png'),
     tags: ['React', 'react-markdown'],
-    date: 'Mar 2026',
   },
   {
     id: 14,
@@ -45,7 +42,6 @@ const projects = [
     repo: 'https://github.com/edriso/react-course-notes',
     img: getImage('react-course-notes.png'),
     tags: ['React'],
-    date: 'Feb 2026',
   },
   {
     id: 13,
@@ -53,7 +49,6 @@ const projects = [
     repo: 'https://github.com/edriso/flyways',
     img: getImage('flyways.png'),
     tags: ['React', 'React Query', 'TanStack Router', 'shadcn', 'Recharts'],
-    date: 'Jan 2026',
   },
   {
     id: 12,
@@ -61,7 +56,6 @@ const projects = [
     repo: 'https://github.com/edriso/react-unsplash-images',
     img: getImage('unsplash-images.png'),
     tags: ['React', 'React Query', 'Axios'],
-    date: 'Jan 2026',
   },
   {
     id: 11,
@@ -69,7 +63,6 @@ const projects = [
     repo: 'https://github.com/edriso/waddda',
     img: getImage('waddda.png'),
     tags: ['React', 'TypeScript', 'Laravel'],
-    date: 'Nov 2025',
   },
   {
     id: 10,
@@ -77,7 +70,6 @@ const projects = [
     repo: 'https://github.com/edriso/one-lesson-up',
     img: getImage('one-lesson-up.png'),
     tags: ['Laravel', 'Vue.js'],
-    date: 'Sep 2025',
   },
   {
     id: 9,
@@ -85,7 +77,6 @@ const projects = [
     repo: 'https://github.com/edriso/i-forgot-to-say-sorry',
     img: getImage('i-forgot-to-say-sorry.png'),
     tags: ['JavaScript', 'html-to-image'],
-    date: 'Aug 2025',
   },
   {
     id: 8,
@@ -93,7 +84,6 @@ const projects = [
     repo: 'https://github.com/edriso/grow-and-let-go',
     img: getImage('grow-and-let-go.png'),
     tags: ['JavaScript'],
-    date: 'Aug 2025',
   },
   {
     id: 7,
@@ -101,7 +91,6 @@ const projects = [
     repo: 'https://github.com/edriso/munajaa',
     img: getImage('munajaa.png'),
     tags: ['JavaScript'],
-    date: 'Aug 2025',
   },
   {
     id: 6,
@@ -109,7 +98,6 @@ const projects = [
     repo: 'https://github.com/edriso/grateful-heart',
     img: getImage('grateful-heart.png'),
     tags: ['JavaScript'],
-    date: 'Jul 2025',
   },
   {
     id: 5,
@@ -117,7 +105,6 @@ const projects = [
     repo: 'https://github.com/edriso/number-ninjas',
     img: getImage('number-ninjas.png'),
     tags: ['React', 'i18n-react', 'JavaScript'],
-    date: 'Dec 2023',
   },
   {
     id: 4,
@@ -125,7 +112,6 @@ const projects = [
     repo: 'https://github.com/edriso/weatherapp',
     img: getImage('weather-app.png'),
     tags: ['Node', 'Express', 'EJS'],
-    date: 'Jul 2022',
   },
   {
     id: 3,
@@ -133,7 +119,6 @@ const projects = [
     repo: 'https://github.com/edriso/cupofthat',
     img: getImage('cup-of-that.png'),
     tags: ['Vue'],
-    date: 'Apr 2021',
   },
   {
     id: 2,
@@ -141,7 +126,6 @@ const projects = [
     repo: 'https://github.com/edriso/fancy-quiz-app',
     img: getImage('fancy-quiz.png'),
     tags: ['Vue', 'Bootstrap Vue'],
-    date: 'Jan 2021',
   },
   {
     id: 1,
@@ -149,7 +133,6 @@ const projects = [
     repo: 'https://github.com/edriso/easybank',
     img: getImage('easybank.png'),
     tags: ['Frontend Mentor', 'SASS'],
-    date: 'Jan 2021',
   },
 ];
 

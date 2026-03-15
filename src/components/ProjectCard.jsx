@@ -24,10 +24,7 @@ function ProjectCard({ project }) {
       </div>
 
       <div className="flex flex-col flex-1 p-4">
-        <div className="flex items-center justify-between mb-2">
-          <h3 className="font-display text-lg">{project.title}</h3>
-          <span className="text-xs text-muted">{project.date}</span>
-        </div>
+        <h3 className="font-display text-lg mb-2">{project.title}</h3>
 
         <div className="flex flex-wrap gap-1.5">
           {project.tags.map((tag) => (
