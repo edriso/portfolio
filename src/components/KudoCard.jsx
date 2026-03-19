@@ -8,7 +8,9 @@ function KudoCard({ kudo }) {
         {kudo.content}
       </p>
       <div className="text-xs text-muted text-right">
-        {kudo.author ? `${kudo.author} · ${kudo.date}` : kudo.date}
+        {kudo.author
+          ? `${kudo.author}${kudo.role ? `, ${kudo.role}` : ''} · ${kudo.date}`
+          : kudo.date}
       </div>
     </article>
   );

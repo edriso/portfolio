@@ -137,6 +137,7 @@ const kudos = [
       'Performance Consistently delivers high-quality work on time, demonstrating excellent attention to detail and strong alignment with team goals. Independence Manages workload confidently and effectively with minimal supervision, showing strong decision-making and prioritization skills. Communication Communicates clearly and professionally, ensuring information is shared in a timely and constructive manner across all stakeholders. Initiative Proactively seeks opportunities to contribute beyond assigned duties, often identifying and solving problems before they escalate. Attitude Towards Work Role Brings a positive, dedicated mindset to every task, consistently showing professionalism in all interactions.',
     date: 'Sep 2025',
     author: 'Sandra Sniedze',
+    role: 'QA',
   },
   {
     id: 24,
@@ -144,27 +145,31 @@ const kudos = [
       'Over the past three months, and throughout JRDUNN project in general, Mohamed has excelled in his leadership role—taking initiative to solve technical and organizational challenges, guiding the team effectively, and fostering a supportive, collaborative environment that enhanced both productivity and morale.',
     date: 'Sep 2025',
     author: 'John Onyango',
+    role: 'Developer',
   },
   {
     id: 25,
     content:
-      "Idris was a Team Lead in our team and truly a gem to work with. His attitude perfectly embodies what the team needs: always positive, proactive, and willing to take on any task. He consistently supports developers in finding solutions, even in areas outside his prior experience. Idris brings great energy to the team, creating a positive and collaborative atmosphere. He's fully committed to delivering value and always goes above and beyond to ensure successful outcomes. Notably, his tickets rarely failed QA, reflecting the high quality and attention to detail in his work.",
+      "Over the past months, Idris has been an incredible support, especially when I started working on a new project where he was the Team Lead. From day one, he provided clear guidance and helped me quickly adapt to the new workflow and project requirements. When it comes to code reviews, Idris has always been very thorough and precise. He doesn't just point out what needs to be changed, he also explains why something shouldn't be done a certain way and, in the same comment, provides examples or suggestions for how it could be done better. This approach has been extremely valuable for my learning and professional growth. He is also very consistent in communication, always keeping everyone informed without delay, whether it's updates in the general project channel or direct messages when completing code reviews. This level of transparency helps the entire team stay synchronized and significantly speeds up the workflow. Idris is also very skilled with Git and has taken the time to explain various processes to me, sharing his knowledge generously. When he was on vacation, I temporarily took over his responsibilities, and his clear explanations beforehand made that transition smooth and manageable. He is always available for short calls to clarify complex topics or explain parts of the implementation, and he has a strong ability to identify and understand issues very quickly. On top of his technical expertise, Idris is also very pleasant to work with approachable, patient, and respectful. I never felt any hesitation or discomfort when asking him for help or clarification, which creates a very healthy and open communication environment within the team.",
     date: 'Sep 2025',
-    author: 'Andrei Miachkou',
+    author: 'Andrej Vicanovic',
+    role: 'Developer',
   },
   {
     id: 26,
     content:
-      "Over the past months, Idris has been an incredible support, especially when I started working on a new project where he was the Team Lead. From day one, he provided clear guidance and helped me quickly adapt to the new workflow and project requirements. When it comes to code reviews, Idris has always been very thorough and precise. He doesn't just point out what needs to be changed, he also explains why something shouldn't be done a certain way and, in the same comment, provides examples or suggestions for how it could be done better. This approach has been extremely valuable for my learning and professional growth. He is also very consistent in communication, always keeping everyone informed without delay, whether it's updates in the general project channel or direct messages when completing code reviews. This level of transparency helps the entire team stay synchronized and significantly speeds up the workflow. Idris is also very skilled with Git and has taken the time to explain various processes to me, sharing his knowledge generously. When he was on vacation, I temporarily took over his responsibilities, and his clear explanations beforehand made that transition smooth and manageable. He is always available for short calls to clarify complex topics or explain parts of the implementation, and he has a strong ability to identify and understand issues very quickly. On top of his technical expertise, Idris is also very pleasant to work with approachable, patient, and respectful. I never felt any hesitation or discomfort when asking him for help or clarification, which creates a very healthy and open communication environment within the team.",
+      "Over the past few months, Mohamed has done an outstanding job leading the development team for the JRDUNN project. His leadership has truly shone, as he not only guided the team with clear direction but also created a supportive and collaborative working environment. Mohamed is always available to help, offering useful notes and tips, and he fosters an open space for any questions or concerns, which has been invaluable to the team. A key highlight of his performance has been his ability to wear two hats effectively—as both a developer and a team leader. His technical expertise, particularly in Shopify, has been instrumental in resolving issues and providing solutions for team members facing challenges. Mohamed has clearly gained significant experience in Shopify over this period, which has been a huge asset to the team. The past three months have been crucial for Mohamed's growth, both as a leader and as a technical expert, and I believe these months have played a pivotal role in his career development.",
     date: 'Sep 2025',
-    author: 'Andrej Vicanovic',
+    author: 'Aly Ossama',
+    role: 'Developer',
   },
   {
     id: 27,
     content:
-      "Over the past few months, Mohamed has done an outstanding job leading the development team for the JRDUNN project. His leadership has truly shone, as he not only guided the team with clear direction but also created a supportive and collaborative working environment. Mohamed is always available to help, offering useful notes and tips, and he fosters an open space for any questions or concerns, which has been invaluable to the team. A key highlight of his performance has been his ability to wear two hats effectively—as both a developer and a team leader. His technical expertise, particularly in Shopify, has been instrumental in resolving issues and providing solutions for team members facing challenges. Mohamed has clearly gained significant experience in Shopify over this period, which has been a huge asset to the team. The past three months have been crucial for Mohamed's growth, both as a leader and as a technical expert, and I believe these months have played a pivotal role in his career development.",
+      "Idris was a Team Lead in our team and truly a gem to work with. His attitude perfectly embodies what the team needs: always positive, proactive, and willing to take on any task. He consistently supports developers in finding solutions, even in areas outside his prior experience. Idris brings great energy to the team, creating a positive and collaborative atmosphere. He's fully committed to delivering value and always goes above and beyond to ensure successful outcomes. Notably, his tickets rarely failed QA, reflecting the high quality and attention to detail in his work.",
     date: 'Sep 2025',
-    author: 'Aly Ossama',
+    author: 'Andrei Miachkou',
+    role: 'PM',
   },
   {
     id: 28,
@@ -172,6 +177,7 @@ const kudos = [
       'What does Mohamed do particularly well? Delivery speed, communication, proactively suggesting solutions for unexpected issues.',
     date: 'Mar 2026',
     author: 'Nikolajs Koņkovs',
+    role: 'Team Lead',
   },
 ];
 
