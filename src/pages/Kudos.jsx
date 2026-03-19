@@ -47,7 +47,7 @@ function Kudos() {
         </a>
       </div>
 
-      <div className="dim-siblings grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div className="dim-siblings columns-1 md:columns-2 gap-5 space-y-5">
         {[...kudos].reverse().map((kudo) => (
           <KudoCard key={kudo.id} kudo={kudo} />
         ))}

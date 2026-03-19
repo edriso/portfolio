@@ -7,7 +7,7 @@ function KudoCard({ kudo }) {
   const isLong = kudo.content.length > CONTENT_THRESHOLD;
 
   return (
-    <article className="flex flex-col p-5 rounded-xl bg-surface border border-border transition-all duration-300 hover:shadow-md">
+    <article className="flex flex-col p-5 rounded-xl bg-surface border border-border transition-all duration-300 hover:shadow-md break-inside-avoid">
       <div className="mb-3 text-primary text-2xl font-display leading-none">
         &ldquo;
       </div>
@@ -31,7 +31,6 @@ function KudoCard({ kudo }) {
           {expanded ? 'Show less' : 'Read more'}
         </button>
       )}
-      <div className="flex-1" />
       <div className="text-xs text-muted text-right">
         {kudo.author
           ? `${kudo.author}${kudo.role ? `, ${kudo.role}` : ''} · ${kudo.date}`
