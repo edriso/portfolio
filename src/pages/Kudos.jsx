@@ -2,6 +2,13 @@ import kudos from '../data/kudos';
 import KudoCard from '../components/KudoCard';
 
 function Kudos() {
+  const reversed = [...kudos].reverse();
+  // Split into two columns for masonry-like layout without column reflow
+  const columns = [
+    reversed.filter((_, i) => i % 2 === 0),
+    reversed.filter((_, i) => i % 2 === 1),
+  ];
+
   return (
     <section>
       <div className="text-center mb-10">
@@ -47,9 +54,13 @@ function Kudos() {
         </a>
       </div>
 
-      <div className="dim-siblings columns-1 md:columns-2 gap-5 space-y-5">
-        {[...kudos].reverse().map((kudo) => (
-          <KudoCard key={kudo.id} kudo={kudo} />
+      <div className="dim-siblings flex flex-col md:flex-row gap-5">
+        {columns.map((column, colIdx) => (
+          <div key={colIdx} className="flex-1 flex flex-col gap-5">
+            {column.map((kudo) => (
+              <KudoCard key={kudo.id} kudo={kudo} />
+            ))}
+          </div>
         ))}
       </div>
     </section>
