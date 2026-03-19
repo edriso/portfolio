@@ -166,6 +166,13 @@ const kudos = [
     date: 'Sep 2025',
     author: 'Aly Ossama',
   },
+  {
+    id: 28,
+    content:
+      'What does Mohamed do particularly well? Delivery speed, communication, proactively suggesting solutions for unexpected issues.',
+    date: 'Mar 2026',
+    author: 'Nikolajs Koņkovs',
+  },
 ];
 
 export default kudos;
