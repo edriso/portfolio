@@ -15,7 +15,7 @@ function Contact() {
           />
           <img
             src={contactImg}
-            alt="Contact"
+            alt="Orange phone booth with a payphone inside"
             loading="lazy"
             width={320}
             height={320}
@@ -31,7 +31,12 @@ function Contact() {
         <div className="text-center lg:text-left">
           <h1 className="font-display text-3xl md:text-4xl mb-4">
             Get in Touch{' '}
-            <img src={callSvg} alt="" aria-hidden="true" className="inline-block w-8 h-8 wave" />
+            <img
+              src={callSvg}
+              alt=""
+              aria-hidden="true"
+              className="inline-block w-8 h-8 wave"
+            />
           </h1>
 
           <p className="text-muted mb-2">
