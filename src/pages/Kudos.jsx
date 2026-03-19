@@ -8,7 +8,7 @@ function Kudos() {
         <h1 className="font-display text-3xl md:text-4xl mb-3">Kudos</h1>
         <p className="text-muted max-w-2xl mx-auto">
           Feedback and recognition I&apos;ve received from team leads, PMs, and
-          colleagues at Scandiweb through{' '}
+          colleagues through{' '}
           <a
             href="https://www.small-improvements.com"
             target="_blank"
@@ -16,8 +16,17 @@ function Kudos() {
             className="text-primary hover:underline"
           >
             Small Improvements
-          </a>{' '}
-          and{' '}
+          </a>
+          ,{' '}
+          <a
+            href="https://360feedback.scandiweb.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary hover:underline"
+          >
+            360feedback
+          </a>
+          , and{' '}
           <a
             href="https://crowdbonus.com/"
             target="_blank"
@@ -39,7 +48,7 @@ function Kudos() {
       </div>
 
       <div className="dim-siblings grid grid-cols-1 md:grid-cols-2 gap-5">
-        {kudos.map((kudo) => (
+        {[...kudos].reverse().map((kudo) => (
           <KudoCard key={kudo.id} kudo={kudo} />
         ))}
       </div>

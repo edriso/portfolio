@@ -7,7 +7,9 @@ function KudoCard({ kudo }) {
       <p className="flex-1 text-muted text-sm leading-relaxed whitespace-pre-line mb-4">
         {kudo.content}
       </p>
-      <div className="text-xs text-muted text-right">{kudo.date}</div>
+      <div className="text-xs text-muted text-right">
+        {kudo.author ? `${kudo.author} · ${kudo.date}` : kudo.date}
+      </div>
     </article>
   );
 }
