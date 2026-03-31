@@ -68,7 +68,7 @@ function About() {
           MySQL and MongoDB.
         </p>
         <p>
-          Currently, I&apos;m working as a Web Developer at Scandiweb, building
+          Most recently, I worked as a Web Developer at Scandiweb, building
           and maintaining e-commerce solutions.
         </p>
       </div>

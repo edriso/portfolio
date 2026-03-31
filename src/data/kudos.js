@@ -179,6 +179,12 @@ const kudos = [
     author: 'Nikolajs Koņkovs',
     role: 'Team Lead',
   },
+  {
+    id: 29,
+    content:
+      "I wanted to say that it was a pure pleasure for me to work with you, not only you were always professional but also you have a kind heart! It's so rare in this world, especially these days, keep it!",
+    date: 'Mar 2026',
+  },
 ];
 
 export default kudos;
