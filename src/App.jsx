@@ -10,17 +10,17 @@ import Kudos from './pages/Kudos';
 import Contact from './pages/Contact';
 
 const PAGE_TITLES = {
-  '/': 'Mohamed Idris',
-  '/projects': 'Mohamed Idris | Projects',
-  '/kudos': 'Mohamed Idris | Kudos',
-  '/contact': 'Mohamed Idris | Contact',
+  '/': 'Mohamed Idris — Software Engineer',
+  '/projects': 'Projects — Mohamed Idris',
+  '/kudos': 'Kudos & Testimonials — Mohamed Idris',
+  '/contact': 'Contact — Mohamed Idris',
 };
 
 function App() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    document.title = PAGE_TITLES[pathname] || 'Mohamed Idris';
+    document.title = PAGE_TITLES[pathname] || PAGE_TITLES['/'];
     window.scrollTo(0, 0);
   }, [pathname]);
 

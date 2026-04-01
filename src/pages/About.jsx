@@ -3,14 +3,16 @@ import waveSvg from '../assets/wave.svg';
 
 const skills = [
   'HTML',
-  'CSS (SASS, TailwindCSS)',
+  'CSS/SASS/TailwindCSS',
   'JavaScript',
   'TypeScript',
   'React.js',
-  'Node.js (Express)',
+  'Node.js',
+  'Express',
   'Alpine.js',
   'Vue.js',
-  'PHP (Laravel)',
+  'PHP',
+  'Laravel',
   'MySQL',
   'MongoDB',
   'React Query',
@@ -18,6 +20,7 @@ const skills = [
   'RESTful APIs',
   'Shopify',
   'Magento',
+  'Hyva (Hyvä)',
   'Git',
   'CI/CD',
   'Docker',
@@ -68,8 +71,8 @@ function About() {
           MySQL and MongoDB.
         </p>
         <p>
-          Most recently, I worked as a Web Developer at Scandiweb, building
-          and maintaining e-commerce solutions.
+          Most recently, I worked as a Web Developer at Scandiweb, building and
+          maintaining e-commerce solutions.
         </p>
       </div>
 
