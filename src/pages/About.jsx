@@ -72,22 +72,24 @@ function About() {
       {/* Bio */}
       <div className="max-w-2xl space-y-4 text-muted leading-relaxed mb-12">
         <p>
-          I&apos;m a software engineer who enjoys building web apps that solve
-          real problems and are easy for people to use.
+          I&apos;m a developer who enjoys building web apps that solve real
+          problems and are easy for people to use.
         </p>
         <p>
-          I have a Bachelor&apos;s degree in Computer Science and completed the
-          ITI web development bootcamp, which gave me hands-on experience
-          building web apps with PHP and Node.js.
+          I&apos;ve worked across the full stack, from building frontend
+          interfaces with React and Vue, to developing APIs and services with
+          Node.js and Laravel, to building Discord bots for community
+          management.
         </p>
         <p>
-          Since then, I&apos;ve worked with frontend frameworks like React.js
-          and Vue.js, backend tools like Node.js and Laravel, and databases like
-          MySQL and MongoDB.
+          I hold a Bachelor&apos;s degree in Computer Science and completed the
+          ITI web development bootcamp, which helped me build a solid foundation
+          early on.
         </p>
         <p>
-          Most recently, I worked as a Web Developer at Scandiweb, building and
-          maintaining e-commerce solutions.
+          I enjoy working with teams where I can learn, contribute, and build
+          things people actually use. That&apos;s the kind of work I want to
+          keep doing.
         </p>
       </div>
 
