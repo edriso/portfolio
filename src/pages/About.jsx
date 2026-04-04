@@ -2,32 +2,43 @@ import profilePicture from '../assets/profile-picture.jpg';
 import waveSvg from '../assets/wave.svg';
 
 const skills = [
-  'React.js',
-  'Next.js',
-  'TypeScript',
+  // Languages
   'JavaScript',
+  'TypeScript',
+  'PHP',
+  'HTML',
+  'CSS',
+  // Frontend
+  'React',
+  'Next.js',
+  'Vue',
+  'Alpine.js',
+  'Tailwind CSS',
+  'SASS',
+  'TanStack Query',
+  // Backend
   'Node.js',
-  'Express',
+  'Express.js',
+  'Laravel',
   'GraphQL',
+  'REST APIs',
+  // Databases
   'PostgreSQL',
   'MySQL',
   'MongoDB',
-  'HTML',
-  'CSS/SASS/TailwindCSS',
-  'Vue.js',
-  'Alpine.js',
-  'PHP',
-  'Laravel',
-  'React Query',
-  'RESTful APIs',
-  'Jest/Testing',
+  // E-commerce
   'Shopify',
-  'Magento',
-  'Hyva (Hyvä)',
+  'Magento 2',
+  'Hyvä',
+  // Bots
+  'Discord.js',
+  'Telegram Bot API',
+  // Testing
+  'Jest',
+  // DevOps & Tools
   'Git',
-  'CI/CD',
   'Docker',
-  'AI Tools (Claude, Cursor)',
+  'CI/CD',
   'Postman',
   'Jira',
 ];
