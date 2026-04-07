@@ -15,25 +15,26 @@ const skills = [
   'Alpine.js',
   'Tailwind CSS',
   'SASS',
-  'TanStack Query',
   // Backend
   'Node.js',
   'Express.js',
   'Laravel',
+  'Prisma',
   'GraphQL',
   'REST APIs',
   // Databases
-  'PostgreSQL',
   'MySQL',
+  'PostgreSQL',
   'MongoDB',
   // E-commerce
   'Shopify',
   'Magento 2',
   'Hyvä',
   // Bots
+  'Grammy',
   'Discord.js',
-  'Telegram Bot API',
   // Testing
+  'Vitest',
   'Jest',
   // DevOps & Tools
   'Git',
@@ -78,8 +79,7 @@ function About() {
         <p>
           I&apos;ve worked across the full stack, from building frontend
           interfaces with React and Vue, to developing APIs and services with
-          Node.js and Laravel, to building Discord bots for community
-          management.
+          Node.js and Laravel, to building Telegram and Discord bots.
         </p>
         <p>
           I hold a Bachelor&apos;s degree in Computer Science and completed the

@@ -15,6 +15,13 @@ function getImage(filename) {
 
 const projects = [
   {
+    id: 18,
+    title: 'NumNinjas',
+    url: 'https://numninjas.com',
+    img: getImage('numninjas.png'),
+    tags: ['TypeScript', 'Grammy', 'Next.js', 'Prisma', 'MySQL'],
+  },
+  {
     id: 17,
     title: 'Name It',
     url: 'https://github.com/edriso/name-it',
