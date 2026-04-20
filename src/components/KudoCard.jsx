@@ -11,7 +11,7 @@ function KudoCard({ kudo }) {
   }, []);
 
   return (
-    <article className="flex flex-col p-5 rounded-xl bg-surface border border-border transition-all duration-300 hover:shadow-md">
+    <article className="dim-card flex flex-col p-5 rounded-xl bg-surface border border-border transition-all duration-300 hover:shadow-md">
       <div className="mb-3 text-primary text-2xl font-display leading-none">
         &ldquo;
       </div>

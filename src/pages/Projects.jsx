@@ -3,7 +3,7 @@ import ProjectCard from '../components/ProjectCard';
 
 function ProjectCardSkeleton() {
   return (
-    <div className="flex flex-col rounded-xl overflow-hidden bg-surface border border-border">
+    <div className="dim-card flex flex-col rounded-xl overflow-hidden bg-surface border border-border">
       <div className="aspect-16/10 shimmer" />
       <div className="flex flex-col flex-1 p-4">
         <div className="h-5 w-1/2 rounded shimmer mb-2" />
@@ -28,7 +28,7 @@ function Projects() {
         </p>
       </div>
 
-      <div className="dim-siblings grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="dim-cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {loading
           ? Array.from({ length: 6 }, (_, i) => <ProjectCardSkeleton key={i} />)
           : projects.map((project) => (

@@ -96,11 +96,11 @@ function About() {
       {/* Skills */}
       <div className="w-full max-w-2xl">
         <h2 className="font-display text-2xl mb-6 text-center">Skills</h2>
-        <div className="dim-siblings flex flex-wrap justify-center gap-2">
+        <div className="dim-cards flex flex-wrap justify-center gap-2">
           {skills.map((skill) => (
             <span
               key={skill}
-              className="px-3 py-1.5 text-sm rounded-full bg-surface border border-border text-muted transition-all duration-300 hover:border-primary hover:text-primary cursor-default"
+              className="dim-card px-3 py-1.5 text-sm rounded-full bg-surface border border-border text-muted transition-all duration-300 hover:border-primary hover:text-primary cursor-default"
             >
               {skill}
             </span>

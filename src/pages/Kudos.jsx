@@ -67,7 +67,7 @@ function Kudos() {
       </div>
 
       {isMd ? (
-        <div className="dim-siblings flex gap-5">
+        <div className="dim-cards flex gap-5">
           {columns.map((col, i) => (
             <div key={i} className="flex-1 flex flex-col gap-5">
               {col.map((kudo) => (
@@ -77,7 +77,7 @@ function Kudos() {
           ))}
         </div>
       ) : (
-        <div className="dim-siblings flex flex-col gap-5">
+        <div className="dim-cards flex flex-col gap-5">
           {reversed.map((kudo) => (
             <KudoCard key={kudo.id} kudo={kudo} />
           ))}
