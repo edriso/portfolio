@@ -27,23 +27,18 @@ const skills = [
   'PostgreSQL',
   'MongoDB',
   // E-commerce
+  'Shopify',
   'Magento 2',
   'Hyvä',
-  'Shopify',
   // Bots
   'Grammy',
   'Discord.js',
   // Testing
   'Vitest',
   'Jest',
-  // Infrastructure & Security
-  'GCP',
-  'Cloudflare',
-  'Linux/Unix',
-  'Nginx',
-  'Docker',
   // DevOps & Tools
   'Git',
+  'Docker',
   'CI/CD',
   'Postman',
   'Jira',
@@ -72,23 +67,19 @@ function About() {
           />
           , I&apos;m Mohamed Idris
         </h1>
-        <p className="text-muted text-lg">E-commerce Developer</p>
+        <p className="text-muted text-lg">Software Engineer</p>
       </div>
 
       {/* Bio */}
       <div className="max-w-2xl space-y-4 text-muted leading-relaxed mb-12">
         <p>
-          I&apos;m an e-commerce developer specializing in Magento 2 and
-          Hyvä Theme, with hands-on experience building and optimizing
-          B2C &amp; B2B platforms from the ground up.
+          I&apos;m a developer who enjoys building web apps that solve real
+          problems and are easy for people to use.
         </p>
         <p>
-          At Scandiweb I delivered multiple client projects on Magento 2 and
-          Shopify, implementing custom modules, third-party integrations, and
-          performance optimizations, including an open-source Hyvä theme. I&apos;m
-          comfortable owning the full lifecycle: backend PHP development, frontend
-          with React/Alpine.js, cloud infrastructure on GCP, and Cloudflare
-          configuration for CDN, caching, and WAF.
+          I&apos;ve worked across the full stack, from building frontend
+          interfaces with React and Vue, to developing APIs and services with
+          Node.js and Laravel, to building Telegram and Discord bots.
         </p>
         <p>
           I hold a Bachelor&apos;s degree in Computer Science and completed the
@@ -96,8 +87,9 @@ function About() {
           early on.
         </p>
         <p>
-          I care about security, reliability, and clean architecture. I enjoy
-          taking full ownership of a platform and making it scale.
+          I enjoy working with teams where I can learn, contribute, and build
+          things people actually use. That&apos;s the kind of work I want to
+          keep doing.
         </p>
       </div>
 
