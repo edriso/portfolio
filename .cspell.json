@@ -1,0 +1,25 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "Hyvä",
+    "Scandiweb",
+    "Magento",
+    "Hyvae",
+    "Grammy",
+    "Vitest",
+    "Prisma",
+    "Contentful",
+    "Vite",
+    "Nginx",
+    "Cloudflare",
+    "edriso",
+    "WAF",
+    "CDN",
+    "GCP",
+    "ITI",
+    "B2C",
+    "B2B"
+  ],
+  "ignorePaths": ["node_modules", "dist", "*.lock"]
+}

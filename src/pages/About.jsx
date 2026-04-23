@@ -1,50 +1,12 @@
 import profilePicture from '../assets/profile-picture.jpg';
 import waveSvg from '../assets/wave.svg';
-
-const skills = [
-  // Languages
-  'JavaScript',
-  'TypeScript',
-  'PHP',
-  'HTML',
-  'CSS',
-  // Frontend
-  'React',
-  'Next.js',
-  'Vue',
-  'Alpine.js',
-  'Tailwind CSS',
-  'SASS',
-  // Backend
-  'Node.js',
-  'Express.js',
-  'Laravel',
-  'Prisma',
-  'GraphQL',
-  'REST APIs',
-  // Databases
-  'MySQL',
-  'PostgreSQL',
-  'MongoDB',
-  // E-commerce
-  'Shopify',
-  'Magento 2',
-  'Hyvä',
-  // Bots
-  'Grammy',
-  'Discord.js',
-  // Testing
-  'Vitest',
-  'Jest',
-  // DevOps & Tools
-  'Git',
-  'Docker',
-  'CI/CD',
-  'Postman',
-  'Jira',
-];
+import { useRole } from '../hooks/useRole';
+import { ROLES } from '../data/about';
 
 function About() {
+  const role = useRole();
+  const { title, bio, skills } = ROLES[role];
+
   return (
     <section className="flex flex-col items-center">
       {/* Hero */}
@@ -67,30 +29,14 @@ function About() {
           />
           , I&apos;m Mohamed Idris
         </h1>
-        <p className="text-muted text-lg">Software Engineer</p>
+        <p className="text-muted text-lg">{title}</p>
       </div>
 
       {/* Bio */}
       <div className="max-w-2xl space-y-4 text-muted leading-relaxed mb-12">
-        <p>
-          I&apos;m a developer who enjoys building web apps that solve real
-          problems and are easy for people to use.
-        </p>
-        <p>
-          I&apos;ve worked across the full stack, from building frontend
-          interfaces with React and Vue, to developing APIs and services with
-          Node.js and Laravel, to building Telegram and Discord bots.
-        </p>
-        <p>
-          I hold a Bachelor&apos;s degree in Computer Science and completed the
-          ITI web development bootcamp, which helped me build a solid foundation
-          early on.
-        </p>
-        <p>
-          I enjoy working with teams where I can learn, contribute, and build
-          things people actually use. That&apos;s the kind of work I want to
-          keep doing.
-        </p>
+        {bio.map((paragraph, i) => (
+          <p key={i}>{paragraph}</p>
+        ))}
       </div>
 
       {/* Skills */}

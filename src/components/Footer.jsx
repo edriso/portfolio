@@ -1,3 +1,6 @@
+import { useRole } from '../hooks/useRole';
+import { DEFAULT_ROLE } from '../data/about';
+
 // Icons link: https://iconmonstr.com/
 const links = [
   {
@@ -24,13 +27,20 @@ const links = [
 ];
 
 function Footer() {
+  const role = useRole();
+  const resumeUrl = `https://edriso.github.io${role !== DEFAULT_ROLE ? `?r=${role}` : ''}`;
+
+  const navLinks = links.map((link) =>
+    link.name === 'Resume' ? { ...link, url: resumeUrl } : link,
+  );
+
   return (
     <footer className="group/footer mt-auto py-8 border-t border-border">
       <nav
         aria-label="Social links"
         className="flex justify-center items-center gap-6"
       >
-        {links.map((link) => (
+        {navLinks.map((link) => (
           <a
             key={link.name}
             href={link.url}
