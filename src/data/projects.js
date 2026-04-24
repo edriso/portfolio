@@ -17,7 +17,7 @@ const projects = [
   {
     id: 18,
     title: 'NumNinjas',
-    url: 'https://numninjas.com',
+    url: 'https://github.com/edriso/num-ninjas',
     img: getImage('numninjas.png'),
     tags: ['TypeScript', 'Grammy', 'Next.js', 'Prisma', 'MySQL'],
   },
