@@ -1,7 +1,8 @@
-import profilePicture from '../assets/profile-picture.jpg';
-import waveSvg from '../assets/wave.svg';
+// import ThoughtCloud from '../components/ThoughtCloud';
 import { useRole } from '../hooks/useRole';
 import { ROLES } from '../data/about';
+import profilePicture from '../assets/profile-picture.jpg';
+import waveSvg from '../assets/wave.svg';
 
 function About() {
   const role = useRole();
@@ -11,12 +12,16 @@ function About() {
     <section className="flex flex-col items-center">
       {/* Hero */}
       <div className="flex flex-col items-center text-center mb-12">
-        <div className="w-36 h-36 md:w-44 md:h-44 rounded-full border-4 border-primary overflow-hidden mb-6">
-          <img
-            src={profilePicture}
-            alt="Mohamed Idris"
-            className="w-full h-full object-cover"
-          />
+        {/* <ThoughtCloud /> */}
+
+        <div className="relative mb-6 w-36 h-36 md:w-44 md:h-44">
+          <div className="w-full h-full rounded-full border-4 border-primary overflow-hidden">
+            <img
+              src={profilePicture}
+              alt="Mohamed Idris"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </div>
 
         <h1 className="font-display text-3xl md:text-4xl mb-2">
