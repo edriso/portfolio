@@ -16,6 +16,7 @@ export const ROLES = {
       'CSS',
       // Frontend
       'React',
+      'Redux',
       'Next.js',
       'Vue',
       'Alpine.js',
@@ -32,6 +33,7 @@ export const ROLES = {
       'MySQL',
       'PostgreSQL',
       'MongoDB',
+      'Redis',
       // E-commerce
       'Shopify',
       'Magento 2',
@@ -68,6 +70,7 @@ export const ROLES = {
       'CSS',
       // Frontend
       'React',
+      'Redux',
       'Next.js',
       'Vue',
       'Alpine.js',
@@ -84,6 +87,7 @@ export const ROLES = {
       'MySQL',
       'PostgreSQL',
       'MongoDB',
+      'Redis',
       // E-commerce
       'Shopify',
       'Magento 2',
@@ -119,6 +123,7 @@ export const ROLES = {
       'CSS',
       // Frameworks & Libraries
       'React',
+      'Redux',
       'Next.js',
       'Vue',
       'Alpine.js',
@@ -160,6 +165,7 @@ export const ROLES = {
       'MySQL',
       'PostgreSQL',
       'MongoDB',
+      'Redis',
       // Testing
       'Vitest',
       'Jest',
