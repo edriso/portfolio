@@ -13,17 +13,18 @@ Personal portfolio built with React 19, Tailwind CSS v4, and Vite.
 
 The About page supports multiple role variants, so you can share a tailored version with different recruiters. The active role is driven by a `?r=` query param and persisted in `localStorage`.
 
-| Param          | Role shown                     |
-| -------------- | ------------------------------ |
-| `?r=software`  | Software Engineer (default)    |
-| `?r=fullstack` | Fullstack Engineer             |
-| `?r=frontend`  | Frontend Developer             |
-| `?r=php`       | PHP/Laravel Developer          |
-| `?r=magento`   | E-commerce / Magento Developer |
+| Param          | Role shown                  |
+| -------------- | --------------------------- |
+| `?r=software`  | Software Engineer (default) |
+| `?r=fullstack` | Fullstack Engineer          |
+| `?r=frontend`  | Frontend Developer          |
+| `?r=backend`   | Backend Developer           |
+| `?r=php`       | PHP/Laravel Developer       |
+| `?r=ecommerce` | E-commerce Developer        |
 
 **How it works:**
-1. Visit `/?r=magento` — sets `localStorage` and shows the Magento variant.
-2. Subsequent visits to `/` (no param) — reads `localStorage` and keeps showing Magento.
+1. Visit `/?r=ecommerce` — sets `localStorage` and shows the E-commerce variant.
+2. Subsequent visits to `/` (no param) — reads `localStorage` and keeps showing that variant.
 3. To switch roles, visit with the new param (e.g. `/?r=frontend`).
 4. To reset to default, visit `/?r=software`.
 
