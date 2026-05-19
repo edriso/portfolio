@@ -10,10 +10,10 @@ import Kudos from './pages/Kudos';
 import Contact from './pages/Contact';
 
 const PAGE_TITLES = {
-  '/': 'Mohamed Idris — Software Engineer',
-  '/projects': 'Projects — Mohamed Idris',
-  '/kudos': 'Kudos & Testimonials — Mohamed Idris',
-  '/contact': 'Contact — Mohamed Idris',
+  '/': 'Mohamed Idris | Software Engineer',
+  '/projects': 'Projects | Mohamed Idris',
+  '/kudos': 'Kudos & Testimonials | Mohamed Idris',
+  '/contact': 'Contact | Mohamed Idris',
 };
 
 function App() {

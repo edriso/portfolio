@@ -3,7 +3,7 @@ export const ROLES = {
     title: 'Software Engineer',
     bio: [
       "I'm a developer who enjoys building web apps that solve real problems and are easy for people to use.",
-      'I work TypeScript-first across the full stack — building frontend interfaces with React and Vue, developing APIs and services with Node.js, NestJS, Express.js, Prisma, and Laravel, and building Telegram and Discord bots.',
+      'I work TypeScript-first across the full stack, building frontend interfaces with React and Vue, developing APIs and services with Node.js, NestJS, Express.js, Prisma, and Laravel, and building Telegram and Discord bots.',
       "I hold a Bachelor's degree in Computer Science and completed the ITI web development bootcamp, which helped me build a solid foundation early on.",
       "I enjoy working with teams where I can learn, contribute, and build things people actually use. That's the kind of work I want to keep doing.",
     ],
@@ -58,7 +58,7 @@ export const ROLES = {
     title: 'Fullstack Engineer',
     bio: [
       "I'm a fullstack engineer who enjoys building complete web applications, from the UI down to the API and database.",
-      'TypeScript-first across the stack — React and Next.js on the frontend with Node.js, NestJS, Express.js, and Prisma on the backend, plus PHP/Laravel where it fits, building both the interfaces people interact with and the services that power them.',
+      'TypeScript-first across the stack: React and Next.js on the frontend with Node.js, NestJS, Express.js, and Prisma on the backend, plus PHP/Laravel where it fits, building both the interfaces people interact with and the services that power them.',
       "I hold a Bachelor's degree in Computer Science and completed the ITI web development bootcamp, which helped me build a solid foundation early on.",
       'I enjoy working on products end-to-end with teams that care about quality and ship things people actually use.',
     ],
@@ -147,7 +147,7 @@ export const ROLES = {
     title: 'Backend Developer',
     bio: [
       "I'm a backend developer focused on building robust APIs and services that scale.",
-      "TypeScript-first with NestJS and Express.js on Node.js, plus PHP/Laravel for projects where it fits. I'm comfortable with database design, authentication, queue systems, and both RESTful and GraphQL APIs across MySQL, PostgreSQL, and MongoDB — using Prisma as my go-to ORM.",
+      "TypeScript-first with NestJS and Express.js on Node.js, plus PHP/Laravel for projects where it fits. I'm comfortable with database design, authentication, queue systems, and both RESTful and GraphQL APIs across MySQL, PostgreSQL, and MongoDB, using Prisma as my go-to ORM.",
       "I hold a Bachelor's degree in Computer Science and completed the ITI web development bootcamp, which helped me build a solid foundation early on.",
       'I care about clean code, good architecture, and building systems that are maintainable and reliable long-term.',
     ],
