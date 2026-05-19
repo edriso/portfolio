@@ -267,4 +267,4 @@ export const ROLES = {
 };
 
 export const VALID_ROLES = Object.keys(ROLES);
-export const DEFAULT_ROLE = 'software';
+export const DEFAULT_ROLE = 'fullstack';

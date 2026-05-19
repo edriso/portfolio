@@ -15,8 +15,8 @@ The About page supports multiple role variants, so you can share a tailored vers
 
 | Param          | Role shown                  |
 | -------------- | --------------------------- |
-| `?r=software`  | Software Engineer (default) |
-| `?r=fullstack` | Fullstack Engineer          |
+| `?r=software`  | Software Engineer            |
+| `?r=fullstack` | Fullstack Engineer (default) |
 | `?r=frontend`  | Frontend Developer          |
 | `?r=backend`   | Backend Developer           |
 | `?r=php`       | PHP/Laravel Developer       |
@@ -26,7 +26,7 @@ The About page supports multiple role variants, so you can share a tailored vers
 1. Visit `/?r=ecommerce` — sets `localStorage` and shows the E-commerce variant.
 2. Subsequent visits to `/` (no param) — reads `localStorage` and keeps showing that variant.
 3. To switch roles, visit with the new param (e.g. `/?r=frontend`).
-4. To reset to default, visit `/?r=software`.
+4. To reset to default, visit `/?r=fullstack`.
 
 **To add or edit a role**, update `src/data/about.js` — that's the single source of truth for all role titles, bios, and skills lists. No other files need changing.
 
