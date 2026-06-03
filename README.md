@@ -5,9 +5,33 @@ Personal portfolio built with React 19, Tailwind CSS v4, and Vite.
 ## Pages
 
 - **About** - Bio, profile photo, and skills
-- **Projects** - Curated project cards fetched from Contentful (falls back to local data)
+- **Projects** - Curated project cards from a local file or Contentful (see [Data source](#data-source))
 - **Kudos** - Testimonials and feedback from colleagues
 - **Contact** - Email and social links
+
+## Data source
+
+Content (the Projects list today, and any other Contentful-backed section
+later) can come from one of two sources, chosen by a single env var:
+
+| `VITE_DATA_SOURCE`  | Where the content comes from                                |
+| ------------------- | ----------------------------------------------------------- |
+| `local` (default)   | The hand-curated files in `src/data/`                       |
+| `contentful`        | The Contentful CMS (needs the `VITE_CONTENTFUL_*` variables) |
+
+**To switch**, change that one line in your `.env` (no code change needed):
+
+```bash
+VITE_DATA_SOURCE=local        # use the local files
+VITE_DATA_SOURCE=contentful   # use Contentful
+```
+
+Notes:
+
+- The default is `local`, so a fresh clone works with no credentials and no network.
+- The value is read once in `src/config.js`; anything other than `contentful` is treated as `local`.
+- If `contentful` is selected but the credentials are missing or a request fails, the app logs a warning and falls back to local data, so a section is never empty.
+- Vite only exposes `VITE_`-prefixed vars, and they are baked into the client bundle at build time, so set this on your host (and rebuild) for production. Only put a read-only Contentful delivery token here, never a secret.
 
 ## Multi-Role About Page
 
@@ -48,7 +72,7 @@ Messages and timing are configured via the constants at the top of the component
 
 - React 19 + React Router v7
 - Tailwind CSS v4 (CSS-first config with `@theme inline`)
-- Contentful CMS
+- Contentful CMS (optional project data source)
 - Vite 7
 - ESLint + Prettier + Husky + lint-staged
 
@@ -56,9 +80,13 @@ Messages and timing are configured via the constants at the top of the component
 
 ```bash
 npm install
-cp .env.example .env  # fill in your Contentful credentials
+cp .env.example .env  # optional; defaults work without any credentials
 npm run dev
 ```
+
+By default the Projects page reads the local file, so no `.env` is required to
+run the app. Add Contentful credentials only if you set
+`VITE_DATA_SOURCE=contentful` (see [Data source](#data-source)).
 
 > `npm install` automatically sets up the Husky pre-commit hook via the `prepare` script — no manual step needed.
 

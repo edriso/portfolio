@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react';
 import { createClient } from 'contentful';
 import localProjects, { placeholderImg } from '../data/projects';
+import { DATA_SOURCE } from '../config';
 
 const spaceId = import.meta.env.VITE_CONTENTFUL_SPACE_ID;
 const accessToken = import.meta.env.VITE_CONTENTFUL_ACCESS_TOKEN;
 
+const useContentful = DATA_SOURCE === 'contentful';
 const client =
-  spaceId && accessToken
+  useContentful && spaceId && accessToken
     ? createClient({ space: spaceId, environment: 'master', accessToken })
     : null;
 
@@ -16,6 +18,11 @@ export function useFetchProjects() {
 
   useEffect(() => {
     if (!client) {
+      if (useContentful) {
+        console.warn(
+          'VITE_DATA_SOURCE is "contentful" but Contentful credentials are missing. Falling back to local projects.',
+        );
+      }
       setProjects(localProjects);
       setLoading(false);
       return;
