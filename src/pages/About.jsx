@@ -1,7 +1,7 @@
 // import ThoughtCloud from '../components/ThoughtCloud';
 import { useRole } from '../hooks/useRole';
 import { ROLES } from '../data/about';
-import profilePicture from '../assets/profile-picture.jpg';
+import profilePicture from '../assets/profile-picture.webp';
 import waveSvg from '../assets/wave.svg';
 
 function About() {
