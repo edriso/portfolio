@@ -25,7 +25,7 @@ const projects = [
     id: 5,
     title: 'Fluent Owls',
     url: 'https://github.com/edriso/fluent-owls',
-    img: getImage('fluent-owls.png'),
+    img: getImage('fluent-owls.jpeg'),
     tags: ['TypeScript', 'Grammy', 'Prisma'],
   },
   {
