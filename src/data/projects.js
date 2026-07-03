@@ -15,32 +15,25 @@ function getImage(filename) {
 
 const projects = [
   {
-    id: 7,
+    id: 6,
     title: 'Hub',
     url: 'https://edriso.github.io/hub/',
     img: getImage('hub.png'),
     tags: ['HTML', 'CSS', 'JavaScript'],
   },
   {
-    id: 6,
-    title: 'NumNinjas',
-    url: 'https://github.com/edriso/num-ninjas',
-    img: getImage('numninjas.png'),
-    tags: ['TypeScript', 'Grammy', 'Next.js', 'Prisma', 'MySQL'],
+    id: 5,
+    title: 'Fluent Owls',
+    url: 'https://github.com/edriso/fluent-owls',
+    img: getImage('fluent-owls.png'),
+    tags: ['TypeScript', 'Grammy', 'Prisma'],
   },
   {
-    id: 5,
+    id: 4,
     title: 'Flyways',
     url: 'https://github.com/edriso/flyways',
     img: getImage('flyways.png'),
     tags: ['React', 'React Query', 'TanStack Router', 'shadcn/ui', 'Recharts'],
-  },
-  {
-    id: 4,
-    title: 'Unsplash Images',
-    url: 'https://github.com/edriso/react-unsplash-images',
-    img: getImage('unsplash-images.png'),
-    tags: ['React', 'React Query', 'Axios'],
   },
   {
     id: 3,
