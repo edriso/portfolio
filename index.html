@@ -96,10 +96,21 @@
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Load font CSS without blocking render: fetch as low-priority, then
+         promote to a real stylesheet once it arrives. `display=swap` means
+         text paints immediately in a fallback and swaps in when ready. -->
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500&family=Fira+Code&display=swap"
-      rel="stylesheet"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500&family=Fira+Code&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
     <title>Mohamed Idris | Software Engineer</title>
   </head>
   <body>
