@@ -16,9 +16,9 @@ function getImage(filename) {
 const projects = [
   {
     id: 7,
-    title: 'Tiny Apps',
-    url: 'https://github.com/edriso/tiny-apps',
-    img: getImage('tiny-apps.png'),
+    title: 'Hub',
+    url: 'https://edriso.github.io/hub/',
+    img: getImage('hub.png'),
     tags: ['HTML', 'CSS', 'JavaScript'],
   },
   {
