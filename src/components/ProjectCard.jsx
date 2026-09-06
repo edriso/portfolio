@@ -1,5 +1,17 @@
 import { useState } from 'react';
 
+function isGitHubUrl(value) {
+  try {
+    const url = new URL(value);
+    return (
+      (url.protocol === 'https:' || url.protocol === 'http:') &&
+      url.hostname === 'github.com'
+    );
+  } catch {
+    return false;
+  }
+}
+
 function ProjectCard({ project }) {
   const [loaded, setLoaded] = useState(false);
 
@@ -29,7 +41,7 @@ function ProjectCard({ project }) {
       <div className="flex flex-col flex-1 p-4">
         <div className="flex items-center justify-between mb-2">
           <h3 className="font-display text-lg">{project.title}</h3>
-          {project.url.includes('github.com') ? (
+          {isGitHubUrl(project.url) ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 256 256"
